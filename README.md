@@ -1,6 +1,6 @@
 # awawa filter
 
-![image previewing poe2_item_filter](/preview_v1.png)
+![image previewing poe2_item_filter](/preview_v2.png)
 
 awawa lite filter is a lightweight PoE2 highlight filter that makes awawa noises on item drops and is color-themed around Jelly Hoshiumi's palette.
 
