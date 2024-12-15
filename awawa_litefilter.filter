@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa lite filter version 1✰〗══✲⋅*,∴°═══
+# ═══°∴,*⋅✲══〖✰awawa lite filter version 2✰〗══✲⋅*,∴°═══
 # ══════════════════════════════════════════════════════
 # this is a simple filter with awawa sounds and basic highlighting
 # it currently hides nothing, and just makes bases under level 50 less visible at area level 65 (endgame)
@@ -17,27 +17,38 @@ SetBackgroundColor 53 13 13 230
 CustomAlertSound "right_to_left_awawawawa.wav" 300
 PlayEffect Brown
 MinimapIcon 2 Brown Star
-SetFontSize 35
+SetFontSize 38
 
 # ══════════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Mirors, Divines, 6 Link✰〗══✲⋅*,∴°═══
 # ══════════════════════════════════════════════════
 Show
 Class "Currency"
-BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
+BaseType "Mirror"
 SetFontSize 45
-SetTextColor 204 232 246
+SetTextColor 200 101 242
+SetBorderColor 200 101 242
+SetBackgroundColor 255 255 255
+CustomAlertSound "what_the_h.wav" 300
+PlayEffect Pink
+MinimapIcon 0 Red Star
+
+Show
+Class "Currency"
+BaseType "Divine" "Perfect Jeweller's Orb"
+SetFontSize 45
+SetTextColor 72 94 169
 SetBorderColor 72 94 169 200
-SetBackgroundColor 255 255 255 200
-CustomAlertSound "cut_awawawa_speech-[dn2OP8-Cp3I].wav" 300
-PlayEffect Red
+SetBackgroundColor 255 255 255
+CustomAlertSound "jelly_scream.wav" 300
+PlayEffect Blue
 MinimapIcon 0 Red Star
 
 # ═══════════════════════════════
 # ═══°∴,*⋅✲══〖✰Gold✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
 Show
-StackSize >= 500
+StackSize >= 1000
 BaseType == "Gold"
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
@@ -55,7 +66,6 @@ SetBorderColor 235 200 110 150
 Show
 BaseType "Uncut "
 SetTextColor 179 245 212
-#SetBorderColor 249 248 152
 SetBorderColor 255 255 255 200
 SetBackgroundColor 0 0 0 230
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
@@ -71,7 +81,7 @@ Show
 BaseType "Soul Core" "Timeless"
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
-SetFontSize 35
+SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
@@ -80,7 +90,7 @@ Show
 Class "Relic"
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
-SetFontSize 35
+SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
@@ -90,7 +100,7 @@ Class "Jewel"
 Rarity Rare
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
-SetFontSize 35
+SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
@@ -100,7 +110,7 @@ Class "Jewel"
 Rarity Magic
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
-SetFontSize 35
+SetFontSize 38
 PlayEffect Cyan Temp
 
 # Special B Tier - Any Runes and Charms
@@ -123,7 +133,7 @@ SetBackgroundColor 53 71 130
 CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 35
+SetFontSize 38
 
 # Glassblowers, jewellers, exalts
 Show
@@ -136,7 +146,7 @@ SetBackgroundColor 69 171 222
 CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 35
+SetFontSize 38
 
 # Vaal, Chaos, Regal, Artificier, Alch
 Show
@@ -144,12 +154,12 @@ Class "Currency"
 BaseType "Vaal Orb" "Chaos Orb" "Regal Orb" "Artificer's Orb" "Orb of Alchemy" 
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246
-SetBackgroundColor 129 157 188
+SetBackgroundColor 98 149 206
 #CustomAlertSound "awawawawawawa_fade_out-[Wim73qyxhiQ].wav" 300
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 35
+SetFontSize 38
 
 Show
 Class "Currency"
@@ -171,8 +181,8 @@ SetBackgroundColor 20 20 0 230
 Show
 Class "Currency"
 BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
-SetTextColor 0 0 0
-SetBorderColor 0 0 0 200
+SetTextColor 50 50 100
+SetBorderColor 50 50 100 200
 SetBackgroundColor 116 172 228 230
 CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
 PlayEffect White
@@ -182,8 +192,8 @@ MinimapIcon 1 White Circle
 Show
 Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
+SetTextColor 50 50 100
+SetBorderColor 50 50 100 255
 SetBackgroundColor 150 200 250 255
 MinimapIcon 2 Grey Circle
 
@@ -200,9 +210,9 @@ MinimapIcon 2 Grey Circle
 Show
 Class "Currency"
 BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 200 101 242
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 66 101 162
 MinimapIcon 2 Grey Circle
 
 # wisdom scrolls
@@ -276,7 +286,7 @@ Show
 Sockets "S" "SS" "SSS"
 Rarity Normal
 SetBorderColor 255 255 255 200
-SetFontSize 33
+SetFontSize 35
 
 Show
 Sockets "S" "SS" "SSS"
@@ -284,26 +294,26 @@ Rarity Magic
 #SetTextColor 72 94 169
 SetTextColor 99 132 243
 SetBorderColor 255 255 255 200
-SetFontSize 33
+SetFontSize 35
 
 Show
 Sockets "S" "SS" "SSS"
 Rarity Rare
 SetTextColor 249 248 152
 SetBorderColor 255 255 255 200
-SetFontSize 33
+SetFontSize 35
 
 Show
 Quality > 10
 Rarity Normal
 SetBorderColor 200 200 200
-SetFontSize 33
+SetFontSize 35
 
 Show
 Quality > 10
 Rarity Magic
 SetBorderColor 0 0 200
-SetFontSize 33
+SetFontSize 35
 
 # ═══°∴,*⋅✲══〖✰Generic Magic & Rare✰〗══✲⋅*,∴°═══
 Show
