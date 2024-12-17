@@ -27,3 +27,4 @@ linux: places files in wineprefix of steamlibrary containing poe2 location
 ## Credits/Thanks
 - core filter inspired from [NeverSink](https://github.com/NeverSinkDev/NeverSink-PoE2litefilter)
 - voice clips from [Jelly Hoshiumi](https://youtube.com/@JellyHoshiumi)
+- made in compliance with Phase Connect's [fan works guidelines](https://phase-connect.com/fan-work-guidelines/)
