@@ -3,6 +3,7 @@
 ![image previewing poe2_item_filter](/preview_v2.png)
 
 awawa lite filter is a lightweight PoE2 highlight filter that makes awawa noises on item drops and is color-themed around Jelly Hoshiumi's palette.
+It should serve you well for the entire game, unless you desire to hide certain loot.
 
 Features:
 - highlight for all the important stuff
@@ -28,3 +29,4 @@ linux: places files in wineprefix of steamlibrary containing poe2 location
 - core filter inspired from [NeverSink](https://github.com/NeverSinkDev/NeverSink-PoE2litefilter)
 - voice clips from [Jelly Hoshiumi](https://youtube.com/@JellyHoshiumi)
 - made in compliance with Phase Connect's [fan works guidelines](https://phase-connect.com/fan-work-guidelines/)
+

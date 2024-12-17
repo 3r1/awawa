@@ -2,7 +2,7 @@
 # ═══°∴,*⋅✲══〖✰awawa lite filter version 2✰〗══✲⋅*,∴°═══
 # ══════════════════════════════════════════════════════
 # this is a simple filter with awawa sounds and basic highlighting
-# it currently hides nothing and instead makes bases under level 50 less visible at area level 65 (endgame)
+# it currently hides nothing, and just makes bases under level 50 less visible at area level 65 (endgame)
 #   (half-hiding low level stuff when you're in endgame maps)
 
 # ══════════════════════════════════════════════════
@@ -48,7 +48,7 @@ MinimapIcon 0 Red Star
 # ═══°∴,*⋅✲══〖✰Gold✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
 Show
-StackSize >= 1000
+StackSize >= 500
 BaseType == "Gold"
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
