@@ -1,8 +1,9 @@
 # ══════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa lite filter version 2✰〗══✲⋅*,∴°═══
+# ═══°∴,*⋅✲══〖✰awawa lite filter version 2.1✰〗══✲⋅*,∴°═══
 # ══════════════════════════════════════════════════════
-# this is a simple filter with awawa sounds and basic highlighting
-# it currently hides nothing, and just makes bases under level 50 less visible at area level 65 (endgame)
+# awawa lite filter
+# this is a simple filter with awawa sounds and highlighting
+# it currently hides nothing and instead makes bases under level 50 less visible at area level 65 (endgame)
 #   (half-hiding low level stuff when you're in endgame maps)
 
 # ══════════════════════════════════════════════════
