@@ -67,9 +67,10 @@ SetBorderColor 235 200 110 150
 # stronger highlight for spirit gems
 Show
 BaseType "Uncut Spirit Gem"
-SetTextColor 179 245 212
+SetTextColor 0 0 0 230
 SetBorderColor 255 255 255 200
-SetBackgroundColor 0 0 0 230
+SetBackgroundColor 179 245 212
+SetFontSize 40
 CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
@@ -282,7 +283,7 @@ MinimapIcon 1 White Circle
 # pinnacle keys
 Show
 Class "Pinnacle Keys"
-SetTextColor 235 200 110 255B
+SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
 SetBackgroundColor 53 71 130
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
