@@ -68,9 +68,10 @@ SetBorderColor 235 200 110 150
 Show
 BaseType "Uncut Spirit Gem"
 SetTextColor 0 0 0 230
-SetBorderColor 255 255 255 200
+SetBorderColor 0 0 0 230
+#SetBorderColor 255 255 255 255
 SetBackgroundColor 179 245 212
-SetFontSize 40
+SetFontSize 36
 CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
@@ -82,6 +83,7 @@ BaseType "Uncut Support Gem"
 SetTextColor 179 245 212
 SetBorderColor 255 255 255 200
 SetBackgroundColor 0 0 0 230
+SetFontSize 36
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
