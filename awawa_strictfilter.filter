@@ -196,12 +196,12 @@ PlayEffect Cyan
 Show
 BaseType "Gold Key" "Silver Key" "Bronze Key"
 SetTextColor 235 200 110 255
-SetBorderColor 235 200 110 255
-SetBackgroundColor 53 71 130
+SetBorderColor 235 200 110 200
+#SetBackgroundColor 53 71 130 125
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 38
+SetFontSize 35
 
 # ═══════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Currency✰〗══✲⋅*,∴°═══
@@ -322,7 +322,7 @@ Show
 Class "Pinnacle Keys"
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
-SetBackgroundColor 53 71 130
+#SetBackgroundColor 53 71 130 125
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
 PlayEffect White
 MinimapIcon 1 Yellow Square
