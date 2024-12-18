@@ -1,12 +1,18 @@
-# ══════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa lite filter version 2.1✰〗══✲⋅*,∴°═══
-# ══════════════════════════════════════════════════════
+# ════════════════════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰awawa lite filter version 2.2✰〗══✲⋅*,∴°═══
+# ════════════════════════════════════════════════════════
 # awawa regular filter
 # this is a simple filter with awawa sounds and highlighting
 # hide charms, wis scrolls, gold under 100
 # hide normal & magic items under DropLevel 50 if in Area higher level than 65
 #       excluding jewellery
 # move gold map highlight to 1k+
+# scaling waystone minimap icon & sound
+#   no minimap icon or sound for tier <10 at stone >13
+#   no minimap icon or sound for tier <5 at stone >10
+# reduce opacity of lower level gems in endgame
+#   support & gems < level 13
+# hide 0 qual flasks after tier 6
 
 # ══════════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Uniques & Rare Currency✰〗══✲⋅*,∴°═══
@@ -72,6 +78,47 @@ BaseType == "Gold"
 # ═════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Uncut Gems✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════
+# stronger highlight for spirit gems
+Show
+BaseType "Uncut Spirit Gem"
+SetTextColor 179 245 212
+SetBorderColor 255 255 255 200
+SetBackgroundColor 0 0 0 230
+SetFontSize 40
+CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
+
+# stronger highlight for support gems in campaign
+Show
+AreaLevel < 65
+BaseType "Uncut Support Gem"
+SetTextColor 179 245 212
+SetBorderColor 255 255 255 200
+SetBackgroundColor 0 0 0 230
+SetFontSize 40
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
+
+# half opacity for lower level skill gems at endgame
+Show
+BaseType "Uncut Skill Gem"
+AreaLevel > 65
+ItemLevel <= 13
+SetTextColor 179 245 212
+SetBorderColor 255 255 255 200
+SetBackgroundColor 0 0 0 230 125
+
+# slightly lower opacity for support gems at endgame
+Show
+BaseType "Uncut Support Gem"
+AreaLevel > 65
+SetTextColor 179 245 212
+SetBorderColor 255 255 255 200
+SetBackgroundColor 0 0 0 230 200
+
+# gems [14+]
 Show
 BaseType "Uncut "
 SetTextColor 179 245 212
@@ -85,7 +132,7 @@ MinimapIcon 1 Cyan Triangle
 # ═══════════════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels, Runes✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════════════════════════
-# Special A Tier - League specific socketables and jewels
+# Socketables and jewels
 Show 
 BaseType "Soul Core" "Timeless"
 SetTextColor 179 245 212
@@ -94,7 +141,7 @@ SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
-# Special A Tier - Sanctum Relics
+# relics
 Show 
 Class "Relic"
 SetTextColor 179 245 212
@@ -103,7 +150,7 @@ SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
-# Special A Tier - Rare Jewels
+# jewels
 Show
 Class "Jewel"
 Rarity Rare
@@ -113,7 +160,6 @@ SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
-# Special B Tier - Any Jewels
 Show
 Class "Jewel"
 Rarity Magic
@@ -133,14 +179,39 @@ PlayEffect Cyan Temp
 Hide
 BaseType " Charm"
 
+# ═════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰Misc Important✰〗══✲⋅*,∴°═══
+# ═════════════════════════════════════════
+
+# breach rings
+Show 
+BaseType == "Breach Ring"
+SetTextColor 204 232 246
+SetBorderColor 204 232 246
+SetBackgroundColor 72 94 169
+SetFontSize 38
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+MinimapIcon 1 Cyan Diamond
+PlayEffect Cyan
+
+# sekhemas trial keys
+Show
+BaseType "Gold Key" "Silver Key" "Bronze Key"
+SetTextColor 235 200 110 255B
+SetBorderColor 235 200 110 255
+SetBackgroundColor 53 71 130
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect White
+MinimapIcon 1 White Circle
+SetFontSize 38
 
 # ═══════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Currency✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════
-# Gemcutters, annuls, chance
+# Gemcutters, annuls, chance & high tier distillants
 Show
 Class "Currency"
-BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
+BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance" "Distilled Isolation" "Distilled Suffering"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
@@ -248,6 +319,17 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Pink
 MinimapIcon 1 White Circle
 
+# pinnacle keys
+Show
+Class "Pinnacle Keys"
+SetTextColor 235 200 110 255B
+SetBorderColor 235 200 110 255
+SetBackgroundColor 53 71 130
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
+PlayEffect White
+MinimapIcon 1 Yellow Square
+SetFontSize 40
+
 # fragments
 Show
 BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
@@ -260,6 +342,25 @@ MinimapIcon 1 White Square
 SetFontSize 35
 
 # maps (waystones)
+# in higher area levels, remove sound & minimap icon of low tier maps
+Show
+WaystoneTier < 10
+AreaLevel > 77
+BaseType "Waystone"
+Rarity <= Rare
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetFontSize 35
+
+Show
+WaystoneTier < 5
+AreaLevel > 74
+BaseType "Waystone"
+Rarity <= Rare
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetFontSize 35
+
 Show
 BaseType "Waystone"
 Rarity <= Rare
@@ -275,17 +376,16 @@ SetFontSize 35
 # ═══════════════════════════════
 # Rares
 
+# ═══°∴,*⋅✲══〖✰Rings, amulets, belts✰〗══✲⋅*,∴°═══
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Rare
 SetFontSize 35
 SetTextColor 249 248 152
 SetBorderColor 249 248 152 200
-
 PlayEffect Yellow
 MinimapIcon 1 Yellow Diamond
 
-# ═══°∴,*⋅✲══〖✰Rings, amulets, belts✰〗══✲⋅*,∴°═══
 Show
 Rarity Normal
 Class "Rings" "Amulets" "Belts"
@@ -342,14 +442,49 @@ SetTextColor 249 248 152
 # ═════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Hide / Alter stuff✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════════════
-# Hide lower level bases at endgame
-#Show
+# Conditional scaling hiding of normal & magic items at endgame
 Hide
+Quality = 0
+AreaLevel > 70
 Rarity <= Magic
-Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre"
-AreaLevel >= 65
-DropLevel <= 50
-#SetBackgroundColor 0 0 0 125
+Class "Flasks"
+
+Hide
+AreaLevel >= 78
+Rarity <= Magic
+DropLevel < 70
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+Hide
+AreaLevel > 75
+Rarity <= Magic
+DropLevel < 64
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+Hide
+AreaLevel > 73
+Rarity <= Magic
+DropLevel < 60
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+Hide
+AreaLevel > 72
+Rarity <= Magic
+DropLevel < 55
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+# Quivers have some relevant bases at 50+ so we treat them different
+Hide
+AreaLevel > 74
+Rarity <= Magic
+DropLevel < 50
+Class "Quivers"
+
+Hide
+AreaLevel > 65
+Rarity <= Normal
+DropLevel < 50
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
 
 Show
 BaseType == "Expert Laced Boots"
