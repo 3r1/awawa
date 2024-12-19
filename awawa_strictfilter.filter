@@ -419,14 +419,7 @@ SetFontSize 35
 
 Show
 Quality > 10
-Rarity Normal
-SetBorderColor 200 200 200
-SetFontSize 35
-
-Show
-Quality > 10
-Rarity Magic
-SetBorderColor 0 0 200
+SetBorderColor 255 255 255
 SetFontSize 35
 
 # ═══°∴,*⋅✲══〖✰Generic Magic & Rare✰〗══✲⋅*,∴°═══
