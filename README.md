@@ -13,7 +13,7 @@ Features:
 ## Install
 Grab the latest release from https://github.com/3r1/awawa/releases
 
-win: extract files into Poe2 game Documents folder
+windows: extract files into Poe2 game Documents folder
 
 `Documents\My Games\Path of Exile 2`
 
@@ -24,13 +24,13 @@ linux: places files in wineprefix of steamlibrary containing poe2 location
 ## Filter versions
 awawa lite filter is the recommended highlighting-only filter that should serve you well for the entire game, unless you desire to hide certain loot.
 
-# awawa lite filter
+### awawa lite filter
 - intended for campaign and early-mid endgame
 - this is a simple filter with awawa sounds and highlighting
 - beam for gold stacks over 500
 - makes bases under level 50 half opacity at area level 65 (endgame waystones)
 
-# awawa regular filter
+### awawa regular filter
 - intended for endgame
 - this is a regular filter with awawa sounds, highlighting
 - hide wisdom scrolls, and gold stacks under 100
@@ -41,7 +41,7 @@ awawa lite filter is the recommended highlighting-only filter that should serve 
 - scaling waystone & gem highlights (no icon or sound for low level gems depending on area, still highlights)
 - hide 0 qual flasks after tier 6
 
-# awawa strict filter
+### awawa strict filter
 - intended for those who know what they're doing & don't want to see normal/magic items
 - this is a strict filter with awawa sounds, highlighting, and strict hiding
 - everying in awawa regular
