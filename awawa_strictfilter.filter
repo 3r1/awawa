@@ -436,7 +436,7 @@ SetTextColor 249 248 152
 #Show
 Hide
 Rarity <= Magic
-Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre"
+Class "Flask" "Body" "Helmet" "Boots" "Gloves" "Shields" "Quiver" "Mace" "Staff" "Quarter" "Bow" "Crossbow" "Wand" "Sceptre" "Focus" "Foci"
 # hide ALL magic & rares
 #AreaLevel >= 65
 #DropLevel <= 50
