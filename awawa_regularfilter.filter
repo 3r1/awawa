@@ -66,7 +66,7 @@ MinimapIcon 2 Yellow Star
 
 Show
 BaseType == "Gold"
-StackSize > 100
+StackSize >= 100
 SetTextColor 235 200 110 150
 SetBorderColor 235 200 110 150
 
