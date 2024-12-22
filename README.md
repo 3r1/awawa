@@ -33,7 +33,8 @@ awawa lite filter is the recommended highlighting-only filter that should serve 
 ### awawa regular filter
 - intended for endgame
 - this is a regular filter with awawa sounds, highlighting
-- hide wisdom scrolls, and gold stacks under 100
+- hide wisdom scrolls
+- smol gold stacks under 100 (smol dopamine)
 - hide normal & magic items under DropLevel 50 if in Area higher level than 65
 - does not hide jewellery or socketed & quality items
 - gold map highlight at 1k+ stacksize
@@ -44,7 +45,8 @@ awawa lite filter is the recommended highlighting-only filter that should serve 
 ### awawa strict filter
 - intended for those who know what they're doing & don't want to see normal/magic items
 - this is a strict filter with awawa sounds, highlighting, and strict hiding
-- everying in awawa regular
+- hide gold stacks under 100
+- everything in awawa regular
 - hide ALL normal & magic items and charms
 - does not hide jewellery or socketed & quality items
 

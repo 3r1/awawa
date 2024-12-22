@@ -1,6 +1,6 @@
-# ════════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa lite filter version 2.2✰〗══✲⋅*,∴°═══
-# ════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰awawa strict filter version 2.3✰〗══✲⋅*,∴°═══
+# ══════════════════════════════════════════════════════════
 # awawa strict filter
 # this is a strict filter with awawa sounds and highlighting
 # hide charms, wis scrolls, gold under 100
@@ -394,6 +394,17 @@ Rarity Magic
 SetFontSize 35
 
 # ═══°∴,*⋅✲══〖✰Sockets, Quality✰〗══✲⋅*,∴°═══
+
+# 20 qual (prio over sockets)
+Show
+Quality = 20
+SetBorderColor 50 241 255
+SetBackgroundColor 27 37 56
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect Blue
+MinimapIcon 1 Blue Square
+SetFontSize 37
+
 Show
 Sockets "S" "SS" "SSS"
 Rarity Normal
