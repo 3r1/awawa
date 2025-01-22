@@ -10,6 +10,13 @@ Features:
 - socket & quality highlighting
 - awawa sounds (&maybe some screaming)
 
+## Filterblade module
+There is now a filterblade awawa module. It is probable that the module will be updated and this repo will become outdated.
+
+Simply click modules under strictness and search "awawa" in the Public tab. Alternatively, use this module link and then choose your own strictness: https://www.filterblade.xyz/?profile=Elaroz&saveState=AJ22P5YRFGTS2K&isPreset=true&game=Poe2&preview=true
+
+The author is 'Elaroz' and the name is 'awawa module'. If you do not yet have the filter sounds, grab them from https://github.com/3r1/awawa/blob/main/audio/awawa_filter_sounds.zip (click the download icon on the right side).
+
 ## Install
 Grab the latest release from https://github.com/3r1/awawa/releases
 
