@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa regular filter version 2.3✰〗══✲⋅*,∴°═══
+# ═══°∴,*⋅✲══〖✰awawa regular filter version 3.0✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════════════════════════════
 # awawa regular filter
 # this is a simple filter with awawa sounds and highlighting
@@ -131,7 +131,6 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
-
 # ═══════════════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels, Runes✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════════════════════════
@@ -171,9 +170,43 @@ SetBorderColor 179 245 212
 SetFontSize 38
 PlayEffect Cyan Temp
 
-# runes and charms
+# charms
 Show 
-BaseType " Rune" " Charm"
+BaseType " Charm"
+SetTextColor 179 245 212
+PlayEffect Cyan Temp
+
+# ================================
+# ===°∴,*⋅✲==〖✰Runes✰〗==✲⋅*,∴°===
+# ================================
+
+# talismans
+Show
+BaseType " Talisman"
+SetTextColor 179 245 212
+PlayEffect Cyan
+
+# special
+Show
+BaseType "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility"
+SetTextColor 179 245 212
+PlayEffect Cyan
+
+# greater
+Show
+BaseType "Greater Desert Rune" "Greater Glacial Rune" "Greater Storm Rune" "Greater Iron Rune" "Greater Body Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Inspiration Rune" "Greater Stone Rune" "Greater Vision Rune"
+SetTextColor 179 245 212
+PlayEffect Cyan Temp
+
+# normal
+Show
+BaseType "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"
+SetTextColor 179 245 212
+PlayEffect Cyan Temp
+
+# lesser
+Show
+BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune"
 SetTextColor 179 245 212
 PlayEffect Cyan Temp
 
@@ -192,6 +225,9 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
 
+# ===============================
+# ===°∴,*⋅✲==〖✰Keys✰〗==✲⋅*,∴°===
+# ===============================
 # sekhemas trial keys
 Show
 BaseType "Gold Key" "Silver Key" "Bronze Key"
@@ -202,6 +238,26 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 35
+
+# pinnacle keys
+Show
+Class "Pinnacle Keys"
+SetTextColor 235 200 110 255
+SetBorderColor 235 200 110 255
+#SetBackgroundColor 53 71 130 125
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
+PlayEffect White
+MinimapIcon 1 Yellow Square
+SetFontSize 40
+
+Show
+Class "Vault Keys"
+SetTextColor 235 200 110 255
+SetBorderColor 235 200 110 255
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
+PlayEffect White
+MinimapIcon 1 Yellow Square
+SetFontSize 40
 
 # ═══════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Currency✰〗══✲⋅*,∴°═══
@@ -250,7 +306,6 @@ BaseType "Chance Shard" "Regal Shard"
 SetTextColor 50 50 100
 SetBorderColor 255 255 255
 SetBackgroundColor 116 172 228 230
-
 
 # Shards are now only artificiers, transmutes, regals, and change
 Show
@@ -316,17 +371,6 @@ SetBackgroundColor 0 0 0
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Pink
 MinimapIcon 1 White Circle
-
-# pinnacle keys
-Show
-Class "Pinnacle Keys"
-SetTextColor 235 200 110 255
-SetBorderColor 235 200 110 255
-#SetBackgroundColor 53 71 130 125
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
-PlayEffect White
-MinimapIcon 1 Yellow Square
-SetFontSize 40
 
 # fragments
 Show
@@ -454,25 +498,25 @@ Hide
 AreaLevel >= 78
 Rarity <= Magic
 DropLevel < 65
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
 Hide
 AreaLevel > 75
 Rarity <= Magic
 DropLevel < 64
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
 Hide
 AreaLevel > 73
 Rarity <= Magic
 DropLevel < 60
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
 Hide
 AreaLevel > 72
 Rarity <= Magic
 DropLevel < 55
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
 # Quivers have some relevant bases at 50+ so we treat them different
 Hide
@@ -485,8 +529,4 @@ Hide
 AreaLevel > 70
 Rarity <= Normal
 DropLevel < 50
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
-
-Show
-BaseType == "Expert Laced Boots"
-
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
