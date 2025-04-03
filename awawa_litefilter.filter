@@ -184,7 +184,7 @@ PlayEffect Cyan Temp
 
 # breach rings
 Show 
-BaseType ══ "Breach Ring"
+BaseType == "Breach Ring"
 SetTextColor 204 232 246
 SetBorderColor 204 232 246
 SetBackgroundColor 72 94 169
