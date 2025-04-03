@@ -2,17 +2,17 @@
 
 ![image previewing poe2_item_filter](/preview_v2.png)
 
-awawa filter is a PoE2 highlight filter that makes awawa noises on item drops and is color-themed around Jelly Hoshiumi's palette.
+**awawa filter** is a PoE2 highlight filter that makes awawa noises on item drops and is color-themed around Jelly Hoshiumi's palette.
 
 Features:
-- highlight for all the important stuff
-- socket & quality highlighting
+- highlight and colors for all the important stuff
+- socket and quality highlighting
 - awawa sounds (and maybe some screaming)
 
 ## Install
 Grab the latest release from https://github.com/3r1/awawa/releases
 
-**Windows**: extract awawa_filter_sounds.zip into Poe2 game Documents folder alongside `.filter` file(s) as desired
+**Windows**: extract `awawa_filter_sounds.zip` into Poe2 game Documents folder alongside `.filter` file(s) as desired
 
 `Documents\My Games\Path of Exile 2`
 
@@ -21,8 +21,6 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 `Steam/steamapps/compatdata/2694490/pfx/drive_c/users/steamuser/Documents/My Games/Path of Exile 2`
 
 ## Filter versions
-awawa lite filter is the recommended highlighting-only filter that should serve you well for the entire game, unless you desire to hide certain loot.
-
 ### awawa lite filter
 - for campaign and early-mid endgame
 - awawa sounds and highlighting
@@ -47,7 +45,7 @@ awawa lite filter is the recommended highlighting-only filter that should serve 
 - hide gold stacks under 100
 - everything in awawa regular
 - hide ALL normal & magic items and charms
-- does not hide jewellery or socketed & quality items
+- does not hide jewellery, socketed & quality items, or currency
 
 ## Filterblade module
 There is a filterblade awawa module with sounds & color theming.
@@ -57,8 +55,9 @@ Using this module link you may choose your own strictness: https://www.filterbla
 If you do not yet have the filter sounds, grab them from: https://github.com/3r1/awawa/releases/download/3.0/awawa_filter_sounds.zip
 
 ## Todo
-- update coloring for new items added in 0.2.0
+- update coloring for new items added in 0.2.0 (primarily talismans and new rune tiers)
 - make sure it works
+- rework currency tiering and integrate new essences/omens and other currencies as applicable
 
 ## Credits/Thanks
 - core filter inspired from [NeverSink](https://github.com/NeverSinkDev/NeverSink-PoE2litefilter)
