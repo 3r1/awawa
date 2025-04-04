@@ -3,8 +3,7 @@
 # ════════════════════════════════════════════════════════
 # awawa lite filter
 # this is a simple filter with awawa sounds and highlighting
-# it currently hides nothing and instead makes bases under level 50 less visible at area level 65 (endgame)
-#   (half-hiding low level stuff when you're in endgame maps)
+# it hides nothing and gives bases under level 50 lower opacity at area level 65 (endgame)
 
 # ══════════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Uniques & Rare Currency✰〗══✲⋅*,∴°═══
@@ -98,10 +97,10 @@ PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
 
-# ═══════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels, Runes✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════════════════════════════
-# Socketables and jewels
+# ════════════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels✰〗══✲⋅*,∴°═══
+# ════════════════════════════════════════════════
+# Cores and jewels
 Show 
 BaseType "Soul Core" "Timeless"
 SetTextColor 179 245 212
@@ -143,9 +142,9 @@ BaseType " Charm"
 SetTextColor 179 245 212
 PlayEffect Cyan Temp
 
-# ══════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Socketables✰〗══✲⋅*,∴°═══
-# ══════════════════════════════════════
+# ════════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰Runes & talismans✰〗══✲⋅*,∴°═══
+# ════════════════════════════════════════════
 
 # talismans
 Show
@@ -219,6 +218,7 @@ PlayEffect White
 MinimapIcon 1 Yellow Square
 SetFontSize 40
 
+# reliquary keys
 Show
 Class "Vault Keys"
 SetTextColor 235 200 110 255
@@ -231,7 +231,7 @@ SetFontSize 40
 # ═══════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Currency✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════
-# Gemcutters, annuls, chance & high tier distillants
+# High tier
 Show
 Class "Currency"
 BaseType "Orb of Annulment" "Orb of Chance" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" 
@@ -243,7 +243,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 38
 
-# Glassblowers, jewellers, exalts
+# Medium-high tier
 Show
 Class "Currency"
 BaseType "Exotic" "Exalted Orb" "Distilled Fear" "Distilled Despair" "Exotic Coinage"
@@ -256,7 +256,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 38
 
-# Vaal, Chaos, Regal, Artificier, Alch
+# Low-high tier
 Show
 Class "Currency"
 BaseType "Vaal Orb" "Chaos Orb" "Regal Orb" "Artificer's Orb" "Orb of Alchemy" "Gemcutter's Prism" "Lesser Jeweller's Orb" "Glassblower's Bauble" 
@@ -269,6 +269,8 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 38
 
+# Current Shard types: artificiers, transmutes, regals, chance
+# "Good" shards
 Show
 Class "Currency"
 BaseType "Chance Shard" "Regal Shard"
@@ -276,25 +278,13 @@ SetTextColor 50 50 100
 SetBorderColor 255 255 255
 SetBackgroundColor 116 172 228 230
 
-
-# Shards are now only artificiers, transmutes, regals, and change
+# Other shards
 Show
 Class "Currency"
 BaseType "Shard"
 SetTextColor 150 200 250 255
 SetBorderColor 150 200 250 255
 SetBackgroundColor 20 20 0 230
-
-# Distilled, Catalysts, Essence,
-Show
-Class "Currency"
-BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
-SetTextColor 50 50 100
-SetBorderColor 50 50 100 200
-SetBackgroundColor 116 172 228 230
-CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
-PlayEffect White
-MinimapIcon 1 White Circle
 
 # Quality increasers
 Show
@@ -314,15 +304,6 @@ SetBorderColor 150 200 250 150
 #172 130 188 200
 MinimapIcon 2 Grey Circle
 
-# splinters
-Show
-Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
-SetTextColor 255 255 255
-SetBorderColor 255 255 255 200
-SetBackgroundColor 66 101 162
-MinimapIcon 2 Grey Circle
-
 # wisdom scrolls
 Show
 Class "Currency"
@@ -331,7 +312,7 @@ SetTextColor 204 232 246 200
 SetBorderColor 204 232 246 80
 SetBackgroundColor 20 20 0 230
 
-# misc currency
+# catch misc currency not in filter
 Show
 Class "Currency"
 SetTextColor 249 248 152
@@ -341,7 +322,29 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Pink
 MinimapIcon 1 White Circle
 
-# fragments
+# ═══°∴,*⋅✲══〖✰League Mechanics✰〗══✲⋅*,∴°═══
+
+# Distilled, Catalyst, Essence, Omen
+Show
+Class "Currency"
+BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
+SetTextColor 50 50 100
+SetBorderColor 50 50 100 200
+SetBackgroundColor 116 172 228 230
+CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
+PlayEffect White
+MinimapIcon 1 White Circle
+
+# splinters
+Show
+Class "Currency"
+BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 66 101 162
+MinimapIcon 2 Grey Circle
+
+# fragments or league mechanic "entry keys"
 Show
 BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
 SetTextColor 204 232 246
@@ -352,7 +355,9 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
-# maps (waystones)
+# ═══════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰maps (waystones)✰〗══✲⋅*,∴°═══
+# ═══════════════════════════════════════════
 Show
 BaseType "Waystone"
 Rarity <= Rare
@@ -437,7 +442,7 @@ SetTextColor 99 132 243
 # ═════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Hide / Alter stuff✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════════════
-### Reduce background opacity on lower level bases at endgame
+# Reduce background opacity on lower level bases at endgame
 Show
 Rarity <= Magic
 Class "Flask" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"

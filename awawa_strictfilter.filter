@@ -127,10 +127,11 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
-# ═══════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels, Runes✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════════════════════════════
-# Socketables and jewels
+# ════════════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels✰〗══✲⋅*,∴°═══
+# ════════════════════════════════════════════════
+
+# Cores and jewels
 Show 
 BaseType "Soul Core" "Timeless"
 SetTextColor 179 245 212
@@ -173,9 +174,9 @@ BaseType " Charm"
 #SetTextColor 179 245 212
 #PlayEffect Cyan Temp
 
-# ================================
-# ===°∴,*⋅✲==〖✰Runes✰〗==✲⋅*,∴°===
-# ================================
+# ════════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰Runes & talismans✰〗══✲⋅*,∴°═══
+# ════════════════════════════════════════════
 
 # talismans
 Show
@@ -222,9 +223,9 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
 
-# ===============================
-# ===°∴,*⋅✲==〖✰Keys✰〗==✲⋅*,∴°===
-# ===============================
+# ═══════════════════════════════
+# ═══°∴,*⋅✲══〖✰Keys✰〗══✲⋅*,∴°═══
+# ═══════════════════════════════
 # sekhemas trial keys
 Show
 BaseType "Gold Key" "Silver Key" "Bronze Key"
@@ -247,6 +248,7 @@ PlayEffect White
 MinimapIcon 1 Yellow Square
 SetFontSize 40
 
+# reliquary keys
 Show
 Class "Vault Keys"
 SetTextColor 235 200 110 255
