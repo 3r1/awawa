@@ -2,7 +2,7 @@
 
 ![image previewing poe2_item_filter](/preview_v2.png)
 
-**awawa filter** is a PoE2 highlight filter that makes awawa noises on item drops and is color-themed around Jelly Hoshiumi's palette.
+**awawa filter** is a PoE2 filter that makes awawa noises on item drops and is color-themed around Jelly Hoshiumi's palette.
 
 Features:
 - highlight and colors for all the important stuff
@@ -42,8 +42,8 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 ### awawa strict filter
 - for those who know what they're doing & don't want to see normal/magic items
 - awawa sounds, highlighting, and strict hiding
-- hide gold stacks under 100
 - everything in awawa regular
+- hide gold stacks under 100
 - hide ALL normal & magic items and charms
 - does not hide jewellery, socketed & quality items, or currency
 
@@ -56,6 +56,7 @@ If you do not yet have the filter sounds, grab them from: https://github.com/3r1
 
 ## Todo
 - update coloring for new items added in 0.2.0 (primarily talismans and new rune tiers)
+- update colors for cores, jewels, and charms
 - make sure it works
 - rework currency tiering and integrate new essences/omens and other currencies as applicable
 
