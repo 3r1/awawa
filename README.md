@@ -1,6 +1,6 @@
 # awawa filter
 
-![image previewing poe2_item_filter](/preview_v2.png)
+![image previewing poe2_item_filter](/preview_v2.5.png)
 
 **awawa filter** is a PoE2 filter that makes awawa noises on item drops and is color-themed around Jelly Hoshiumi's palette.
 
