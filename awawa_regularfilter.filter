@@ -2,11 +2,11 @@
 # ═══°∴,*⋅✲══〖✰awawa regular filter version 3.0✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════════════════════════════
 # awawa regular filter
-# this is a simple filter with awawa sounds and highlighting
-# hide wis scrolls, gold under 100
+# everything from lite
+# hide wis scrolls
 # hide normal & magic items under DropLevel 50 if in Area higher level than 65
 #       excluding jewellery
-# move gold map highlight to 1k+
+# move gold map highlight to 1k+, gold under 100 is small
 # scaling waystone minimap icon & sound
 #   no minimap icon or sound for tier <10 at stone >13
 #   no minimap icon or sound for tier <5 at stone >10
@@ -57,7 +57,7 @@ MinimapIcon 0 Red Star
 # ═══°∴,*⋅✲══〖✰Gold✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
 Show
-StackSize >= 1000
+StackSize >= 1000   # !rule regular
 BaseType == "Gold"
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
@@ -66,10 +66,11 @@ MinimapIcon 2 Yellow Star
 
 Show
 BaseType == "Gold"
-StackSize > 99
+StackSize > 99  # !rule regular
 SetTextColor 235 200 110 150
 SetBorderColor 235 200 110 150
 
+# !rule regular
 # small stacks small
 Show
 BaseType == "Gold"
@@ -104,6 +105,7 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
+# !rule regular
 # half opacity for lower level skill gems at endgame
 Show
 BaseType "Uncut Skill Gem"
@@ -113,6 +115,7 @@ SetTextColor 179 245 212
 SetBorderColor 255 255 255 200
 SetBackgroundColor 0 0 0 125
 
+# !rule regular
 # slightly lower opacity for support gems at endgame
 Show
 BaseType "Uncut Support Gem"
@@ -354,6 +357,7 @@ SetBorderColor 255 255 255 200
 SetBackgroundColor 66 101 162
 MinimapIcon 2 Grey Circle
 
+# !rule regular
 # wisdom scrolls
 #Show
 Hide
@@ -384,6 +388,7 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
+# !rule regular
 # maps (waystones)
 # in higher area levels, remove sound & minimap icon of low tier maps
 Show
@@ -395,6 +400,7 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetFontSize 35
 
+# !rule regular
 Show
 WaystoneTier < 5
 AreaLevel > 74
@@ -481,6 +487,7 @@ Show
 Rarity Rare
 SetTextColor 249 248 152
 
+# !rule regular
 #Show
 #Rarity Magic
 #SetTextColor 99 132 243
@@ -488,6 +495,7 @@ SetTextColor 249 248 152
 # ═════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Hide / Alter stuff✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════════════
+# !rule regular
 # Conditional scaling hiding of normal & magic items at endgame
 Hide
 Quality = 0
@@ -495,30 +503,35 @@ AreaLevel > 70
 Rarity <= Magic
 Class "Flasks"
 
+# !rule regular
 Hide
 AreaLevel >= 78
 Rarity <= Magic
 DropLevel < 65
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
+# !rule regular
 Hide
 AreaLevel > 75
 Rarity <= Magic
 DropLevel < 64
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
+# !rule regular
 Hide
 AreaLevel > 73
 Rarity <= Magic
 DropLevel < 60
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
+# !rule regular
 Hide
 AreaLevel > 72
 Rarity <= Magic
 DropLevel < 55
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
 
+# !rule regular
 # Quivers have some relevant bases at 50+ so we treat them different
 Hide
 AreaLevel > 74
@@ -526,6 +539,7 @@ Rarity <= Magic
 DropLevel < 50
 Class "Quivers"
 
+# !rule regular
 Hide
 AreaLevel > 70
 Rarity <= Normal

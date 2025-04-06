@@ -1,11 +1,8 @@
-# ══════════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa strict filter version 3.0✰〗══✲⋅*,∴°═══
-# ══════════════════════════════════════════════════════════
-# awawa strict filter
-# everything from regular
-# hide charms
-# move gold map highlight to 2k, hide gold under 500
-# hide ALL normal & magic items, exluding jewellery
+# ════════════════════════════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰awawa lite-regular filter version 3.0✰〗══✲⋅*,∴°═══
+# ════════════════════════════════════════════════════════════════
+# awawa lite-regular filter
+# lite with gold and gem themeing from regular
 
 # ══════════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Uniques & Rare Currency✰〗══✲⋅*,∴°═══
@@ -50,7 +47,7 @@ MinimapIcon 0 Red Star
 # ═══°∴,*⋅✲══〖✰Gold✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
 Show
-StackSize >= 2000   # !rule strict
+StackSize >= 1000   # !rule regular
 BaseType == "Gold"
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
@@ -59,15 +56,17 @@ MinimapIcon 2 Yellow Star
 
 Show
 BaseType == "Gold"
-StackSize > 500  # !rule strict
+StackSize > 99  # !rule regular
 SetTextColor 235 200 110 150
 SetBorderColor 235 200 110 150
 
-# !rule strict
-# hide small stacks
-Hide
-StackSize < 100
+# !rule regular
+# small stacks small
+Show
 BaseType == "Gold"
+SetTextColor 235 200 110 150
+SetBackgroundColor 0 0 0 100
+SetFontSize 15
 
 # ═════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Uncut Gems✰〗══✲⋅*,∴°═══
@@ -164,13 +163,11 @@ SetBorderColor 179 245 212
 SetFontSize 38
 PlayEffect Cyan Temp
 
-# !rule strict
-# Hide charms in endgame
-#Show
-Hide
+# charms
+Show 
 BaseType " Charm"
-#SetTextColor 179 245 212
-#PlayEffect Cyan Temp
+SetTextColor 179 245 212
+PlayEffect Cyan Temp
 
 # ════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Runes & talismans✰〗══✲⋅*,∴°═══
@@ -178,6 +175,7 @@ BaseType " Charm"
 
 # talismans
 Show
+#BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
 BaseType " Talisman"
 SetTextColor 179 245 212
 PlayEffect Cyan
@@ -259,7 +257,7 @@ SetFontSize 40
 # ═══════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Currency✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════
-# Gemcutters, annuls, chance & high tier distillants
+# High tier
 Show
 Class "Currency"
 BaseType "Orb of Annulment" "Orb of Chance" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" 
@@ -271,7 +269,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 38
 
-# Glassblowers, jewellers, exalts
+# Medium-high tier
 Show
 Class "Currency"
 BaseType "Exotic" "Exalted Orb" "Distilled Fear" "Distilled Despair" "Exotic Coinage"
@@ -284,7 +282,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 38
 
-# Vaal, Chaos, Regal, Artificier, Alch
+# Low-high tier
 Show
 Class "Currency"
 BaseType "Vaal Orb" "Chaos Orb" "Regal Orb" "Artificer's Orb" "Orb of Alchemy" "Gemcutter's Prism" "Lesser Jeweller's Orb" "Glassblower's Bauble" 
@@ -297,6 +295,8 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 38
 
+# Current Shard types: artificiers, transmutes, regals, chance
+# "Good" shards
 Show
 Class "Currency"
 BaseType "Chance Shard" "Regal Shard"
@@ -304,24 +304,13 @@ SetTextColor 50 50 100
 SetBorderColor 255 255 255
 SetBackgroundColor 116 172 228 230
 
-# Shards are now only artificiers, transmutes, regals, and change
+# Other shards
 Show
 Class "Currency"
 BaseType "Shard"
 SetTextColor 150 200 250 255
 SetBorderColor 150 200 250 255
 SetBackgroundColor 20 20 0 230
-
-# Distilled, Catalysts, Essence,
-Show
-Class "Currency"
-BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
-SetTextColor 50 50 100
-SetBorderColor 50 50 100 200
-SetBackgroundColor 116 172 228 230
-CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
-PlayEffect White
-MinimapIcon 1 White Circle
 
 # Quality increasers
 Show
@@ -341,26 +330,15 @@ SetBorderColor 150 200 250 150
 #172 130 188 200
 MinimapIcon 2 Grey Circle
 
-# splinters
+# wisdom scrolls
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
-SetTextColor 255 255 255
-SetBorderColor 255 255 255 200
-SetBackgroundColor 66 101 162
-MinimapIcon 2 Grey Circle
-
-# !rule regular
-# wisdom scrolls
-#Show
-Hide
-Class "Currency"
 BaseType "Wisdom"
-#SetTextColor 204 232 246 200
-#SetBorderColor 204 232 246 80
-#SetBackgroundColor 20 20 0 230
+SetTextColor 204 232 246 200
+SetBorderColor 204 232 246 80
+SetBackgroundColor 20 20 0 230
 
-# misc currency
+# catch misc currency not in filter
 Show
 Class "Currency"
 SetTextColor 249 248 152
@@ -370,7 +348,29 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Pink
 MinimapIcon 1 White Circle
 
-# fragments
+# ═══°∴,*⋅✲══〖✰League Mechanics✰〗══✲⋅*,∴°═══
+
+# Distilled, Catalyst, Essence, Omen
+Show
+Class "Currency"
+BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
+SetTextColor 50 50 100
+SetBorderColor 50 50 100 200
+SetBackgroundColor 116 172 228 230
+CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
+PlayEffect White
+MinimapIcon 1 White Circle
+
+# splinters
+Show
+Class "Currency"
+BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 66 101 162
+MinimapIcon 2 Grey Circle
+
+# fragments or league mechanic "entry keys"
 Show
 BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
 SetTextColor 204 232 246
@@ -381,28 +381,9 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
-# !rule regular
-# maps (waystones)
-# in higher area levels, remove sound & minimap icon of low tier maps
-Show
-WaystoneTier < 10
-AreaLevel > 77
-BaseType "Waystone"
-Rarity <= Rare
-SetTextColor 255 255 255
-SetBorderColor 255 255 255 200
-SetFontSize 35
-
-# !rule regular
-Show
-WaystoneTier < 5
-AreaLevel > 74
-BaseType "Waystone"
-Rarity <= Rare
-SetTextColor 255 255 255
-SetBorderColor 255 255 255 200
-SetFontSize 35
-
+# ═══════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰maps (waystones)✰〗══✲⋅*,∴°═══
+# ═══════════════════════════════════════════
 Show
 BaseType "Waystone"
 Rarity <= Rare
@@ -480,21 +461,17 @@ Show
 Rarity Rare
 SetTextColor 249 248 152
 
-# !rule regular
-#Show
-#Rarity Magic
-#SetTextColor 99 132 243
+Show
+Rarity Magic
+SetTextColor 99 132 243
 
 # ═════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Hide / Alter stuff✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════════════
-# !rule strict
-# Hide lower level bases at endgame
-#Show
-Hide
+# Reduce background opacity on lower level bases at endgame
+Show
 Rarity <= Magic
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
-# hide ALL magic & rares
-#AreaLevel >= 65
-#DropLevel <= 50
-#SetBackgroundColor 0 0 0 125
+Class "Flask" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
+AreaLevel >= 65
+DropLevel <= 50
+SetBackgroundColor 0 0 0 125

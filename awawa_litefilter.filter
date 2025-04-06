@@ -74,7 +74,7 @@ SetFontSize 36
 CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
-    
+
 # stronger highlight for support gems in campaign
 Show
 AreaLevel < 65

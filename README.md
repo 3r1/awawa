@@ -34,7 +34,7 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 - gold stacks under 100 are smol
 - 1k+ gold stacks have a map highlight
 - in waystones, hide low level normal & magic items (if DropLevel<50 && AreaLevel>70)
-- does not hide jewellery or socketed & quality items
+- does not hide jewellery, socketed & quality items, socketables, or currency
 - scaling hiding of magic & normal items substantially lower than AreaLevel
 - scaling waystone & gem highlights (no icon/sound for low level gems)
 - hide 0 qual flasks after tier 6
@@ -43,9 +43,9 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 - for those who know what they're doing & don't want to see normal/magic items
 - awawa sounds, highlighting, and strict hiding
 - everything in awawa regular
-- hide gold stacks under 100
+- 2k gold has beams, hide gold stacks under 500
 - hide ALL normal & magic items and charms
-- does not hide jewellery, socketed & quality items, or currency
+- does not hide jewellery, socketed & quality items, socketables, or currency
 
 ## Filterblade module
 There is a filterblade awawa module with sounds & color theming.
@@ -57,8 +57,9 @@ If you do not yet have the filter sounds, grab them from: https://github.com/3r1
 ## Todo
 - update coloring for new items added in 0.2.0 (primarily talismans and new rune tiers)
 - update colors for cores, jewels, and charms
-- make sure it works
+- ✔ make sure it works
 - rework currency tiering and integrate new essences/omens and other currencies as applicable
+- update the preview image
 
 ## Credits/Thanks
 - core filter inspired from [NeverSink](https://github.com/NeverSinkDev/NeverSink-PoE2litefilter)
