@@ -66,7 +66,7 @@ SetBorderColor 235 200 110 150
 # !rule strict
 # hide small stacks
 Hide
-StackSize < 100
+StackSize < 500
 BaseType == "Gold"
 
 # ═════════════════════════════════════
