@@ -1,5 +1,5 @@
 # ════════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa lite filter version 3.0✰〗══✲⋅*,∴°═══
+# ═══°∴,*⋅✲══〖✰awawa lite filter version 3.1✰〗══✲⋅*,∴°═══
 # ════════════════════════════════════════════════════════
 # awawa lite filter
 # this is a simple filter with awawa sounds and highlighting
@@ -96,7 +96,6 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
-
 # ════════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels✰〗══✲⋅*,∴°═══
 # ════════════════════════════════════════════════
@@ -145,10 +144,9 @@ PlayEffect Cyan Temp
 # ════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Runes & talismans✰〗══✲⋅*,∴°═══
 # ════════════════════════════════════════════
-
 # talismans
 Show
-#BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
+BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
 BaseType " Talisman"
 SetTextColor 179 245 212
 PlayEffect Cyan
@@ -177,11 +175,9 @@ BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser 
 SetTextColor 179 245 212
 PlayEffect Cyan Temp
 
-
 # ═════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Misc Important✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════════
-
 # breach rings
 Show 
 BaseType == "Breach Ring"
@@ -192,7 +188,6 @@ SetFontSize 38
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
-
 
 # ═══════════════════════════════
 # ═══°∴,*⋅✲══〖✰Keys✰〗══✲⋅*,∴°═══
@@ -324,7 +319,6 @@ PlayEffect Pink
 MinimapIcon 1 White Circle
 
 # ═══°∴,*⋅✲══〖✰League Mechanics✰〗══✲⋅*,∴°═══
-
 # Distilled, Catalyst, Essence, Omen
 Show
 Class "Currency"
@@ -343,6 +337,7 @@ BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 66 101 162
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 MinimapIcon 2 Grey Circle
 
 # fragments or league mechanic "entry keys"
@@ -372,7 +367,6 @@ SetFontSize 35
 # ═══════════════════════════════
 # ═══°∴,*⋅✲══〖✰Gear✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
-
 # ═══°∴,*⋅✲══〖✰Rings, amulets, belts✰〗══✲⋅*,∴°═══
 Show
 Class "Rings" "Amulets" "Belts"
@@ -394,7 +388,6 @@ Rarity Magic
 SetFontSize 35
 
 # ═══°∴,*⋅✲══〖✰Sockets, Quality✰〗══✲⋅*,∴°═══
-
 # 20 qual (prio over sockets)
 Show
 Quality = 20
