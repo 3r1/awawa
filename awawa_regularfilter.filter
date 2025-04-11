@@ -347,16 +347,6 @@ BaseType "Wisdom"
 #SetBorderColor 204 232 246 80
 #SetBackgroundColor 20 20 0 230
 
-# catch misc currency not in filter
-Show
-Class "Currency"
-SetTextColor 249 248 152
-SetBorderColor 249 248 152
-SetBackgroundColor 0 0 0
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
-PlayEffect Pink
-MinimapIcon 1 White Circle
-
 # ═══°∴,*⋅✲══〖✰League Mechanics✰〗══✲⋅*,∴°═══
 # Distilled, Catalyst, Essence, Omen
 Show
@@ -389,6 +379,17 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
+
+# catch misc currency not in filter
+Show
+Class "Currency"
+SetTextColor 249 248 152
+SetBorderColor 249 248 152
+SetBackgroundColor 0 0 0
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect Pink
+MinimapIcon 1 White Circle
+
 
 # ═══════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰maps (waystones)✰〗══✲⋅*,∴°═══
