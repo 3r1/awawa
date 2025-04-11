@@ -511,28 +511,28 @@ Hide
 AreaLevel >= 78
 Rarity <= Magic
 DropLevel < 65
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
 
 # !rule regular
 Hide
 AreaLevel > 75
 Rarity <= Magic
 DropLevel < 64
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
 
 # !rule regular
 Hide
 AreaLevel > 73
 Rarity <= Magic
 DropLevel < 60
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
 
 # !rule regular
 Hide
 AreaLevel > 72
 Rarity <= Magic
 DropLevel < 55
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
 
 # !rule regular
 # Quivers have some relevant bases at 50+ so we treat them different
