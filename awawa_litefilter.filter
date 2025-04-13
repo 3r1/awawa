@@ -230,7 +230,7 @@ SetFontSize 40
 # High tier
 Show
 Class "Currency"
-BaseType "Orb of Annulment" "Orb of Chance" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" 
+BaseType "Fracturing Orb" "Orb of Annulment" "Orb of Chance" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" 
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
