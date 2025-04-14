@@ -58,8 +58,8 @@ If you do not yet have the filter sounds, grab them from: https://github.com/3r1
 - update coloring for new items added in 0.2.0 (primarily talismans and new rune tiers)
 - update colors for cores, jewels, and charms
 - ✔ make sure it works
-- rework currency tiering and integrate new essences/omens and other currencies as applicable
-- update the preview image
+- ✔ rework currency tiering and integrate new essences/omens and other currencies as applicable
+- ✔ update the preview image
 
 ## Credits/Thanks
 - core filter inspired from [NeverSink](https://github.com/NeverSinkDev/NeverSink-PoE2litefilter)

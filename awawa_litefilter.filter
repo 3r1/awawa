@@ -5,10 +5,9 @@
 # this is a simple filter with awawa sounds and highlighting
 # it hides nothing and gives bases under level 50 lower opacity at area level 65 (endgame)
 
-# ══════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Uniques & Rare Currency✰〗══✲⋅*,∴°═══
-# ══════════════════════════════════════════════════
-#〖✰Uniques✰〗
+# ══════════════════════════════════
+# ═══°∴,*⋅✲══〖✰Uniques✰〗══✲⋅*,∴°═══
+# ══════════════════════════════════
 Show
 Rarity Unique
 SetTextColor 175 96 37 255
@@ -19,40 +18,15 @@ PlayEffect Brown
 MinimapIcon 2 Brown Star
 SetFontSize 38
 
-# ══════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Mirors, Divines, 6 Link✰〗══✲⋅*,∴°═══
-# ══════════════════════════════════════════════════
-Show
-Class "Currency"
-BaseType "Mirror"
-SetFontSize 45
-SetTextColor 200 101 242
-SetBorderColor 200 101 242
-SetBackgroundColor 255 255 255
-CustomAlertSound "what_the_h.wav" 300
-PlayEffect Pink
-MinimapIcon 0 Red Star
-
-Show
-Class "Currency"
-BaseType "Divine" "Perfect Jeweller's Orb"
-SetFontSize 45
-SetTextColor 72 94 169
-SetBorderColor 72 94 169 200
-SetBackgroundColor 255 255 255
-CustomAlertSound "jelly_scream.wav" 300
-PlayEffect Blue
-MinimapIcon 0 Red Star
-
 # ═══════════════════════════════
 # ═══°∴,*⋅✲══〖✰Gold✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
 Show
-StackSize >= 500
 BaseType == "Gold"
+StackSize >= 500
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
-PlayEffect Orange Temp
+PlayEffect Yellow Temp
 MinimapIcon 2 Yellow Star
 
 Show
@@ -96,12 +70,12 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
-# ════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Cores, Relics, Jewels✰〗══✲⋅*,∴°═══
-# ════════════════════════════════════════════════
-# Cores and jewels
+# ═════════════════════════════════════════
+# ═══°∴,*⋅✲══〖✰Relics, Jewels✰〗══✲⋅*,∴°═══
+# ═════════════════════════════════════════
+# Jewels
 Show 
-BaseType "Soul Core" "Timeless"
+BaseType "Timeless"
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
 SetFontSize 38
@@ -120,20 +94,11 @@ PlayEffect Cyan
 # jewels
 Show
 Class "Jewel"
-Rarity Rare
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
 SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
-
-Show
-Class "Jewel"
-Rarity Magic
-SetTextColor 179 245 212
-SetBorderColor 179 245 212
-SetFontSize 38
-PlayEffect Cyan Temp
 
 # charms
 Show 
@@ -145,11 +110,11 @@ PlayEffect Cyan Temp
 # ═══°∴,*⋅✲══〖✰Runes & talismans✰〗══✲⋅*,∴°═══
 # ════════════════════════════════════════════
 # talismans
-Show
-BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
-BaseType " Talisman"
-SetTextColor 179 245 212
-PlayEffect Cyan
+# Show
+# BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
+# BaseType " Talisman"
+# SetTextColor 179 245 212
+# PlayEffect Cyan
 
 # special
 Show
@@ -227,92 +192,213 @@ SetFontSize 40
 # ═══════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Currency✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════════
-# High tier
+# tier 0 - mirror
 Show
 Class "Currency"
-BaseType "Fracturing Orb" "Orb of Annulment" "Orb of Chance" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" 
+BaseType "Mirror"
+SetFontSize 45
+SetTextColor 200 101 242
+SetBorderColor 200 101 242
+SetBackgroundColor 255 255 255
+PlayEffect Pink
+MinimapIcon 0 Pink Star
+CustomAlertSound "what_the_h.wav" 300
+
+# tier 1 - 50+ ex
+Show
+Class "Currency"
+SetFontSize 45
+BaseType "Perfect Jeweller's Orb" "Divine Orb"
+SetTextColor 69 155 236
+SetBorderColor 69 155 236 200
+SetBackgroundColor 255 255 255
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+CustomAlertSound "jelly_scream.wav" 300
+
+# tier 2 - 25+ ex
+Show
+Class "Currency"
+SetFontSize 45
+BaseType "Greater Jeweller's Orb"
+SetTextColor 55 92 217
+SetBorderColor 55 92 217 200
+SetBackgroundColor 255 255 255
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+CustomAlertSound "jelly_scream.wav" 300
+
+# tier 3 - 5+ ex
+Show
+Class "Currency"
+SetFontSize 40
+BaseType "Lesser Jeweller's Orb" "Fracturing Orb" "Orb of Chance"
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246 230
+SetBackgroundColor 76 186 241
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
+
+# tier 4 - 2+ ex
+Show
+Class "Currency"
+SetFontSize 38
+BaseType "Chaos Orb" "Gemcutter's Prism" "Orb of Annulment" "Vaal Orb"
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246
+SetBackgroundColor 88 144 207
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
+
+# tier 5 - 1 ex
+Show
+Class "Currency"
+SetFontSize 36
+BaseType "Exalted Orb" "Artificer's Orb"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
-CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 38
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
-# Medium-high tier
+# tier 6 - <1 ex
 Show
 Class "Currency"
-BaseType "Exotic" "Exalted Orb" "Distilled Fear" "Distilled Despair" "Exotic Coinage"
-SetTextColor 255 255 255 255
-SetBorderColor 204 232 246 230
-SetBackgroundColor 69 171 222
-#CustomAlertSound "soft_awawawawa.wav" 300
-CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
-PlayEffect White
-MinimapIcon 1 White Circle
-SetFontSize 38
+BaseType "Chance Shard" "Orb of Alchemy" "Regal Orb" "Armourer's Scrap"
+SetFontSize 34
+SetTextColor 117 200 255
+SetBorderColor 130 192 255 200
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 
-# Low-high tier
+# tier 7 - <1/5 ex
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Chaos Orb" "Regal Orb" "Artificer's Orb" "Orb of Alchemy" "Gemcutter's Prism" "Lesser Jeweller's Orb" "Glassblower's Bauble" 
-SetTextColor 255 255 255 255
-SetBorderColor 204 232 246
-SetBackgroundColor 98 149 206
-#CustomAlertSound "awawawawawawa_fade_out-[Wim73qyxhiQ].wav" 300
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
-PlayEffect White
-MinimapIcon 1 White Circle
-SetFontSize 38
+BaseType "Glassblower's Bauble" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Shard"
+SetTextColor 106 169 252
+SetBorderColor 40 80 129 230
 
-# Current Shard types: artificiers, transmutes, regals, chance
-# "Good" shards
+# tier 8 - <1/30 ex
 Show
 Class "Currency"
-BaseType "Chance Shard" "Regal Shard"
-SetTextColor 50 50 100
-SetBorderColor 255 255 255
-SetBackgroundColor 116 172 228 230
+BaseType "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
+SetFontSize 30
+SetTextColor 61 121 211
+SetBorderColor 47 87 173 200
 
-# Other shards
+# tier 9 - free
 Show
 Class "Currency"
-BaseType "Shard"
-SetTextColor 150 200 250 255
-SetBorderColor 150 200 250 255
-SetBackgroundColor 20 20 0 230
-
-# Quality increasers
-Show
-Class "Currency"
-BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
-SetTextColor 50 50 100
-SetBorderColor 50 50 100 255
-SetBackgroundColor 150 200 250 255
-MinimapIcon 2 Grey Circle
-
-# augs, transmutes
-Show
-Class "Currency"
-BaseType "Orb of Augmentation" "Orb of Transmutation" 
-SetTextColor 100 165 230 255
-SetBorderColor 150 200 250 150
-#172 130 188 200
-MinimapIcon 2 Grey Circle
-
-# wisdom scrolls
-Show
-Class "Currency"
-BaseType "Wisdom"
+BaseType "Scroll of Wisdom" "Transmutation Shard"
+SetFontSize 28
 SetTextColor 204 232 246 200
 SetBorderColor 204 232 246 80
 SetBackgroundColor 20 20 0 230
 
 # ═══°∴,*⋅✲══〖✰League Mechanics✰〗══✲⋅*,∴°═══
-# Distilled, Catalyst, Essence, Omen
+# Distillates, Catalysts, Essences, Omens, Talismans, Expedition, Breach, Soul Cores
+
+# tier 0 - mirror
+# Show
+# BaseType
+# SetFontSize 45
+# SetTextColor 200 101 242
+# SetBorderColor 200 101 242
+# SetBackgroundColor 255 255 255
+# PlayEffect Pink
+# MinimapIcon 0 Pink Star
+# CustomAlertSound "what_the_h.wav" 300
+
+# tier 1 - 50+ ex
 Show
-Class "Currency"
-BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
+SetFontSize 45
+BaseType "of Delirium" "Isolation" "Suffering" "Ticaba" "Azcapa"
+SetTextColor 69 155 236
+SetBorderColor 69 155 236 200
+SetBackgroundColor 255 255 255
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+CustomAlertSound "jelly_scream.wav" 300
+
+# tier 2 - 25+ ex
+Show
+SetFontSize 45
+BaseType "of Insanity" "Rabbit Talisman" "Fear"
+SetTextColor 55 92 217
+SetBorderColor 55 92 217 200
+SetBackgroundColor 255 255 255
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+CustomAlertSound "jelly_scream.wav" 300
+
+# tier 3 - 5+ ex
+Show
+SetFontSize 40
+BaseType "of Horror" "of Hysteria" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Torment" "Tacati" "Citaqualotl" "Jiquani" "Fox Talisman" "Despair" 
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246 230
+SetBackgroundColor 76 186 241
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
+
+# tier 4 - 2+ ex
+Show
+SetFontSize 38
+BaseType "Greater Essence of" "Disgust"
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246
+SetBackgroundColor 88 144 207
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
+
+# tier 5 - 1 ex
+Show
+SetFontSize 36
+BaseType "Essence of" "Soul Core Of" "Talisman" "Catalyst" "Paranoia" "Exotic Coinage" "Envy"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 53 71 130
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
+
+# tier 6 - <1 ex
+Show
+BaseType "Greed"
+SetFontSize 34
+SetTextColor 117 200 255
+SetBorderColor 130 192 255 200
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
+
+# tier 7 - <1/5 ex
+Show
+BaseType "Guilt" "Artifact"
+SetTextColor 106 169 252
+SetBorderColor 40 80 129 230
+
+# tier 8 - <1/30 ex
+Show
+BaseType "Ire"
+SetFontSize 30
+SetTextColor 61 121 211
+SetBorderColor 47 87 173 200
+
+# tier 9 - free
+# Show
+# Class "Currency"
+# BaseType 
+# SetFontSize 28
+# SetTextColor 204 232 246 200
+# SetBorderColor 204 232 246 80
+# SetBackgroundColor 20 20 0 230
+
+# Omen - todo remove this
+Show
+BaseType "Omen of"
 SetTextColor 50 50 100
 SetBorderColor 50 50 100 200
 SetBackgroundColor 116 172 228 230
@@ -421,8 +507,15 @@ SetBorderColor 255 255 255 200
 SetFontSize 37
 
 Show
-Quality > 0
+Quality > 10
 SetBorderColor 50 150 255
+SetBackgroundColor 27 37 56
+SetFontSize 37
+
+Show
+Quality > 0
+SetBorderColor 0 94 230
+#SetBorderColor 50 150 255
 SetFontSize 37
 
 # ═══°∴,*⋅✲══〖✰Generic Magic & Rare✰〗══✲⋅*,∴°═══
