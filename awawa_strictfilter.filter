@@ -1,10 +1,11 @@
 # ══════════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa strict filter version 3.1✰〗══✲⋅*,∴°═══
+# ═══°∴,*⋅✲══〖✰awawa strict filter version 3.2✰〗══✲⋅*,∴°═══
 # ══════════════════════════════════════════════════════════
 # awawa strict filter
 # everything from regular
 # hide charms
-# move gold map highlight to 2k, hide gold under 500
+# move gold map highlight to 2k, 5k map highlight, hide gold under 500
+# hide salvagables that give <2 currency
 # hide ALL normal & magic items, exluding jewellery
 
 # ══════════════════════════════════

@@ -43,9 +43,10 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 - for those who know what they're doing & don't want to see normal/magic items
 - awawa sounds, highlighting, and strict hiding
 - everything in awawa regular
-- 2k gold has beams, hide gold stacks under 500
+- 2k gold has beams, 5k gold shows on map, hide gold stacks under 500
 - hide ALL normal & magic items and charms
-- does not hide jewellery, socketed & quality items, socketables, or currency
+- hides socketed & quality items that give <2 salvage
+- does not hide jewellery, socketables, or currency
 
 ## Filterblade module
 There is a filterblade awawa module with sounds & color theming.
