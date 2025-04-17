@@ -493,8 +493,8 @@ SetFontSize 37
 Show
 Sockets "S" "SS" "SSS"
 Rarity Magic
-#SetTextColor 72 94 169
-SetTextColor 99 132 243
+SetTextColor 93 117 196
+
 SetBorderColor 255 255 255 200
 SetFontSize 37
 
@@ -524,7 +524,7 @@ SetTextColor 249 248 152
 
 Show
 Rarity Magic
-SetTextColor 99 132 243
+SetTextColor 93 117 196
 
 # ═════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Hide / Alter stuff✰〗══✲⋅*,∴°═══
