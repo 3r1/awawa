@@ -299,7 +299,7 @@ CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 Show
 Class "Currency"
 SetFontSize 36
-BaseType "Exalted Orb" "Artificer's Orb"
+BaseType "Exalted Orb"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
@@ -319,7 +319,7 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 # tier 7 - <1/5 ex
 Show
 Class "Currency"
-BaseType "Glassblower's Bauble" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Shard"
+BaseType "Glassblower's Bauble" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Shard" "Artificer's Orb"
 SetTextColor 106 169 252
 SetBorderColor 40 80 129 230
 

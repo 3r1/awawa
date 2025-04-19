@@ -256,7 +256,7 @@ CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 Show
 Class "Currency"
 SetFontSize 36
-BaseType "Exalted Orb" "Artificer's Orb"
+BaseType "Exalted Orb"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
@@ -267,7 +267,7 @@ CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 # tier 6 - <1 ex
 Show
 Class "Currency"
-BaseType "Chance Shard" "Orb of Alchemy" "Regal Orb" "Armourer's Scrap"
+BaseType "Chance Shard" "Orb of Alchemy" "Regal Orb" "Armourer's Scrap" "Artificer's Orb"
 SetFontSize 34
 SetTextColor 117 200 255
 SetBorderColor 130 192 255 200
