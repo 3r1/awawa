@@ -57,10 +57,13 @@ If you do not yet have the filter sounds, grab them from: https://github.com/3r1
 
 ## Todo
 ### Post 0.3.0 launch
-- add "New Exceptional items (extra sockets or higher than max quality [dropped from "highest level areas"])
+- recolor new "Exceptional" items
 - update "Lineage Support Gem" filtering
 - post 0.3.0, update currency tiers and currency rebalancing
   - support "normal", greater, perfect, also some lesser
+- see if BaseType "Simulacrum" " Tablet" "Breachstone" exist or are removed from filtering
+- may have to re-tier "Diluted" Liquid Emotions and "Concentrated" Liquid Emotions 
+- check up on list of socketables
 
 ### General todo
 - pray the filter works on 0.3.0 release on August 29th
