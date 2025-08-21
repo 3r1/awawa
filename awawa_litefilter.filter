@@ -472,6 +472,17 @@ SetFontSize 35
 # ═══════════════════════════════
 # ═══°∴,*⋅✲══〖✰Gear✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
+# ═══°∴,*⋅✲══〖✰Exceptional Items✰〗══✲⋅*,∴°═══
+# max 30% qual or extra max socket
+Show
+BaseType "Exceptional"
+SetBorderColor 50 241 255
+SetBackgroundColor 27 37 56
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect Blue
+MinimapIcon 1 Blue Square
+SetFontSize 37
+
 # ═══°∴,*⋅✲══〖✰Tiered Items✰〗══✲⋅*,∴°═══
 # border for tier >= 2 items until add "tiering" colors
 Show
@@ -480,6 +491,7 @@ UnidentifiedItemTier >= 2
 SetTextColor 249 248 152
 SetBorderColor 159 112 247
 SetBackgroundColor 0 0 0 250
+PlayEffect Purple
 SetFontSize 37
 
 # ═══°∴,*⋅✲══〖✰Rings, amulets, belts✰〗══✲⋅*,∴°═══
