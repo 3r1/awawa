@@ -436,9 +436,9 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
-# breach - preserved bones
+# breach - preserved bones and invitations
 Show
-BaseType "Preserved"
+BaseType "Preserved" "Kulemak's Invitation"
 SetTextColor 139 235 47
 SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230

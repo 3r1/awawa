@@ -476,7 +476,7 @@ MinimapIcon 2 Grey Circle
 
 # fragments or league mechanic "entry keys"
 Show
-BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
+BaseType "Simulacrum" " Tablet" "Breachstone"
 SetTextColor 204 232 246
 SetBorderColor 204 232 246
 SetBackgroundColor 72 94 169
@@ -485,9 +485,9 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
-# breach - preserved bones
+# breach - preserved bones and invitations
 Show
-BaseType "Preserved"
+BaseType "Preserved" "Kulemak's Invitation"
 SetTextColor 139 235 47
 SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230
