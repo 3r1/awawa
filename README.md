@@ -58,7 +58,7 @@ If you do not yet have the filter sounds, grab them from: https://github.com/3r1
 ## Todo
 - update colors for jewels, runes, charms, relics, keys, tablets, logbooks, baryas, ultis
 - revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
-- add filtering for "tier" items when it gets added to api
+- TESTING filtering for "tier" items (from 0.2.0h)
 - check on currency values
 - potentially tweak gear coloring
 

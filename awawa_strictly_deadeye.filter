@@ -48,11 +48,13 @@ StackSize >= 500  # !rule strict
 SetTextColor 235 200 110 150
 SetBorderColor 235 200 110 150
 
-# !rule strict
-# hide small stacks
-Hide
+# !rule deadeye small stacks
+Show
 BaseType == "Gold"
 StackSize < 500
+SetTextColor 235 200 110 150
+SetBackgroundColor 0 0 0 100
+SetFontSize 15
 
 # ═════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Uncut Gems✰〗══✲⋅*,∴°═══
@@ -589,19 +591,62 @@ SetFontSize 37
 #SetBorderColor 50 150 255
 #SetFontSize 37
 
-# ═══°∴,*⋅✲══〖✰Generic Magic & Rare✰〗══✲⋅*,∴°═══
-Show
-Rarity Rare
-SetTextColor 249 248 152
-
-# !rule regular
-#Show
-#Rarity Magic
-#SetTextColor 99 132 243
-
 # ═════════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Hide / Alter stuff✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════════════
+# !start rule deadeye
+# Cbows, bows & quivers (not bases for bow main) ( light red/pink border )
+Show
+BaseType "Desolate Crossbow" "Siege Crossbow"
+SetBorderColor 255 50 111
+Show
+BaseType "Warmonger Bow" "Cavalry Bow" "Ironwood Shortbow" "Militant Bow" "Primed Quiver" "Volant Quiver" "Visceral Quiver"
+SetBorderColor 255 50 111
+
+# es armors & hybrid body ( light green border )
+Show
+BaseType "Kamasan Tiara" "Sorcerous Tiara"
+SetBorderColor 50 255 84
+Show
+BaseType "Vaal Gloves" "Opulent Gloves"
+SetBorderColor 50 255 84
+Show
+BaseType "Sandsworn Sandals" "Luxurious Slippers"
+SetBorderColor 50 255 84
+Show
+BaseType "Falconer's Jacket" "Rambler Jacket"
+SetBorderColor 50 255 84
+
+# armors for selling ( dark green border )
+# body      evasion & es
+Show
+BaseType "Slipstrike Vest" "Wyrmscale Coat" "Swiftstalker Coat" "Sacramental Robe" "Flowing Raiment"
+Rarity Rare
+SetTextColor 249 248 152
+SetBorderColor 49 141 20
+
+# boots     evasion & hybrid
+Show
+BaseType "Dragonscale Boots" "Cavalry Boots" "Quickslip Shoes" "Charmed Shoes"
+Rarity Rare
+SetTextColor 249 248 152
+SetBorderColor 49 141 20
+
+# gloves    evasion & hybrid
+Show
+BaseType "Barbed Bracers" "Grand Bracers" "Vaal Wraps" "Elegant Wraps"
+Rarity Rare
+SetTextColor 249 248 152
+SetBorderColor 49 141 20
+
+# helm      evasion
+Show
+BaseType "Trapper Hood" "Desert Cap"
+Rarity Rare
+SetTextColor 249 248 152
+SetBorderColor 49 141 20
+# !end rule deadeye
+
 # !rule strict
 # Hide lower level bases at endgame
 #Show
@@ -612,6 +657,17 @@ Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quive
 #AreaLevel >= 65
 #DropLevel <= 50
 #SetBackgroundColor 0 0 0 125
+
+# ═══°∴,*⋅✲══〖✰Generic Magic & Rare✰〗══✲⋅*,∴°═══
+# !rule deadeye
+Hide
+Rarity Rare
+SetTextColor 249 248 152
+
+# !rule deadeye
+Hide
+Rarity Magic
+SetTextColor 99 132 243
 
 # !rule temp
 # quick border for tier >= 3 items until better "tiering"
