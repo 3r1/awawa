@@ -266,7 +266,7 @@ CustomAlertSound "what_the_h.wav" 300
 Show
 Class "Currency"
 SetFontSize 45
-BaseType "Perfect Jeweller's Orb" "Divine Orb"
+BaseType "Perfect Jeweller's Orb" "Divine Orb" "Hinekora"
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
