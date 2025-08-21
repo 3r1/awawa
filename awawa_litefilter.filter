@@ -472,6 +472,16 @@ SetFontSize 35
 # ═══════════════════════════════
 # ═══°∴,*⋅✲══〖✰Gear✰〗══✲⋅*,∴°═══
 # ═══════════════════════════════
+# ═══°∴,*⋅✲══〖✰Tiered Items✰〗══✲⋅*,∴°═══
+# border for tier >= 2 items until add "tiering" colors
+Show
+Rarity >= Normal
+UnidentifiedItemTier >= 2
+SetTextColor 249 248 152
+SetBorderColor 159 112 247
+SetBackgroundColor 0 0 0 250
+SetFontSize 37
+
 # ═══°∴,*⋅✲══〖✰Rings, amulets, belts✰〗══✲⋅*,∴°═══
 Show
 Class "Rings" "Amulets" "Belts"
@@ -555,10 +565,3 @@ Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quive
 AreaLevel >= 65
 DropLevel <= 50
 SetBackgroundColor 0 0 0 125
-
-# !rule temp
-# quick border for tier >= 3 items until better "tiering"
-Show
-Rarity >= Normal
-UnidentifiedItemTier >= 3
-SetBorderColor 159 112 247
