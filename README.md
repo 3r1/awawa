@@ -57,7 +57,9 @@ If you do not yet have the filter sounds, grab them from: https://github.com/3r1
 
 ## Todo
 - make a lite filter that should work on 0.3.0 release on August 29th
+  - unique gems, hinekora, preserved
 - post 0.3.0, work on new currency tiers and currency rebalancing
+  - support "normal", greater, perfect, also some Lesser
 - update colors for jewels, runes, charms, relics, keys, tablets, logbooks, baryas, ultis
 - revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
 - TESTING filtering for "tier" items (from 0.2.0h)
