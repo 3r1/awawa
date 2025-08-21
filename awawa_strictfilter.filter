@@ -485,6 +485,15 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
+# breach - preserved bones
+Show
+BaseType "Preserved"
+SetTextColor 139 235 47
+SetBorderColor 140 189 11
+SetBackgroundColor 0 0 0 230
+PlayEffect Green
+MinimapIcon 1 Green Circle
+
 # catch misc currency not in filter
 Show
 Class "Currency"
