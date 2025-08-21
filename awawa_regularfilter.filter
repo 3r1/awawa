@@ -108,6 +108,16 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
+# 0.3.0_pre - temporarily give white background to support/skill gems until further info on unique gems
+Show 
+Class "Support" "Skill"
+SetTextColor 109 175 152
+SetBorderColor 109 175 152
+SetBackgroundColor 255 255 255
+SetFontSize 38
+MinimapIcon 2 Cyan Triangle
+PlayEffect Cyan
+
 # ═════════════════════════════════════════
 # ═══°∴,*⋅✲══〖✰Relics, Jewels✰〗══✲⋅*,∴°═══
 # ═════════════════════════════════════════
