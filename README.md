@@ -56,9 +56,14 @@ Using this module link you may choose your own strictness: https://www.filterbla
 If you do not yet have the filter sounds, grab them from: https://github.com/3r1/awawa/releases/download/3.0/awawa_filter_sounds.zip
 
 ## Todo
-- pray the filter works on 0.3.0 release on August 29th
+### Post 0.3.0 launch
+- add "New Exceptional items (extra sockets or higher than max quality [dropped from "highest level areas"])
+- update "Lineage Support Gem" filtering
 - post 0.3.0, update currency tiers and currency rebalancing
-  - support "normal", greater, perfect, also some Lesser
+  - support "normal", greater, perfect, also some lesser
+
+### General todo
+- pray the filter works on 0.3.0 release on August 29th
 - update colors for jewels, runes, charms, relics, keys, tablets, logbooks, baryas, ultis
 - revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
 - create color tiers for UnidentifiedItemTier items
