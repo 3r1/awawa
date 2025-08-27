@@ -254,7 +254,7 @@ PlayEffect Pink
 MinimapIcon 0 Pink Star
 CustomAlertSound "what_the_h.wav" 300
 
-# tier 1 - 50+ ex
+# tier 1
 Show
 Class "Currency"
 BaseType "Perfect Jeweller's Orb" "Divine Orb" "Hinekora"
@@ -266,7 +266,7 @@ PlayEffect Blue
 MinimapIcon 0 Blue Star
 CustomAlertSound "jelly_scream.wav" 300
 
-# tier 2 - 25+ ex
+# tier 2
 Show
 Class "Currency"
 BaseType "Greater Jeweller's Orb"
@@ -278,7 +278,7 @@ PlayEffect Blue
 MinimapIcon 0 Blue Star
 CustomAlertSound "jelly_scream.wav" 300
 
-# tier 3 - 5+ ex
+# tier 3
 Show
 Class "Currency"
 BaseType "Lesser Jeweller's Orb" "Fracturing Orb" "Orb of Chance"
@@ -290,7 +290,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
-# tier 4 - 2+ ex
+# tier 4
 Show
 Class "Currency"
 BaseType "Chaos Orb" "Gemcutter's Prism" "Orb of Annulment" "Vaal Orb"
@@ -302,7 +302,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
-# tier 5 - 1 ex
+# tier 5
 Show
 Class "Currency"
 BaseType "Exalted Orb"
@@ -314,7 +314,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
-# tier 6 - <1 ex
+# tier 6
 Show
 Class "Currency"
 BaseType "Chance Shard" "Orb of Alchemy" "Regal Orb" "Armourer's Scrap"
@@ -323,14 +323,14 @@ SetTextColor 117 200 255
 SetBorderColor 130 192 255 200
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 
-# tier 7 - <1/5 ex
+# tier 7
 Show
 Class "Currency"
 BaseType "Glassblower's Bauble" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Shard" "Artificer's Orb"
 SetTextColor 106 169 252
 SetBorderColor 40 80 129 230
 
-# tier 8 - <1/30 ex
+# tier 8
 Show
 Class "Currency"
 BaseType "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
@@ -338,7 +338,7 @@ SetFontSize 30
 SetTextColor 61 121 211
 SetBorderColor 47 87 173 200
 
-# tier 9 - free
+# tier 9
 Hide # !rule regular
 Class "Currency"
 BaseType "Scroll of Wisdom" "Transmutation Shard"
