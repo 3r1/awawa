@@ -347,67 +347,43 @@ SetTextColor 204 232 246 200
 SetBorderColor 204 232 246 80
 SetBackgroundColor 20 20 0 230
 
-# ═══✰ League Mechanics ✰═══
-# Abyss, Breach, Delirium, Essence, Expedition, Ritual, Azmeri Sprits, Ultimatum
+# ═══════════════════════════════
+# ═════✰ League Mechanics ✰═════
+# ═══════════════════════════════
+# Abyss, Azmeri Sprits, Breach, Delirium, Essence, Expedition, Ritual, Ultimatum
 
-# tier 0 - mirror
-# Show
-# BaseType
-# SetFontSize 45
-# SetTextColor 200 101 242
-# SetBorderColor 200 101 242
-# SetBackgroundColor 255 255 255
-# PlayEffect Pink
-# MinimapIcon 0 Pink Star
-# CustomAlertSound "what_the_h.wav" 300
-
-# tier 1 - 50+ ex
+# ═══✰ Abyss ✰═══
+# Invitation
 Show
-BaseType "of Delirium" "Ticaba" "Azcapa"
-SetFontSize 45
-SetTextColor 69 155 236
-SetBorderColor 69 155 236 200
-SetBackgroundColor 255 255 255
-PlayEffect Blue
-MinimapIcon 0 Blue Star
-CustomAlertSound "jelly_scream.wav" 300
+BaseType "Kulemak's Invitation"
+SetTextColor 139 235 47
+SetBorderColor 140 189 11
+SetBackgroundColor 0 0 0 230
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect Green
+MinimapIcon 1 Green Square
 
-# tier 2 - 25+ ex
+# Bones
 Show
-BaseType "of Insanity"
-SetFontSize 45
-SetTextColor 55 92 217
-SetBorderColor 55 92 217 200
-SetBackgroundColor 255 255 255
-PlayEffect Blue
-MinimapIcon 0 Blue Star
-CustomAlertSound "jelly_scream.wav" 300
+BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium" "Preserved Vertebrae"
+SetTextColor 139 235 47
+SetBorderColor 140 189 11
+SetBackgroundColor 0 0 0 230
+PlayEffect Green
+MinimapIcon 1 Green Circle
 
-# tier 3 - 5+ ex
+# ═══✰ Azmeri Spirits - Talismans ✰═══
+# Fox & Rabbit Talisman are "more important"
 Show
-BaseType "of Horror" "of Hysteria" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Abrasion" "Tacati" "Citaqualotl" "Jiquani"
-SetFontSize 40
-SetTextColor 255 255 255 255
-SetBorderColor 204 232 246 230
-SetBackgroundColor 76 186 241
-PlayEffect White
-MinimapIcon 1 White Circle
-CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
+BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
+#BaseType " Talisman"
+SetTextColor 179 245 212
+PlayEffect Cyan
 
-# tier 4 - 2+ ex
+# ═══✰ Breach - Catalysts ✰═══
+# tier 5
 Show
-BaseType "Greater Essence of"
-SetFontSize 38
-SetTextColor 255 255 255 255
-SetBorderColor 204 232 246
-SetBackgroundColor 88 144 207
-PlayEffect White
-MinimapIcon 1 White Circle
-CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
-
-# tier 5 - 1 ex
-Show
-BaseType "Essence of" "Soul Core Of" "Talisman" "Catalyst" "Paranoia" "Exotic Coinage"
+BaseType "Catalyst"
 SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
@@ -416,37 +392,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
-# tier 6 - <1 ex
-# Show
-# BaseType
-# SetFontSize 34
-# SetTextColor 117 200 255
-# SetBorderColor 130 192 255 200
-# CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
-
-# tier 7 - <1/5 ex
-Show
-BaseType "Artifact"
-SetTextColor 106 169 252
-SetBorderColor 40 80 129 230
-
-# tier 8 - <1/30 ex
-# Show
-# BaseType
-# SetFontSize 30
-# SetTextColor 61 121 211
-# SetBorderColor 47 87 173 200
-
-# tier 9 - free
-# Show
-# Class "Currency"
-# BaseType 
-# SetFontSize 28
-# SetTextColor 204 232 246 200
-# SetBorderColor 204 232 246 80
-# SetBackgroundColor 20 20 0 230
-
-# Liquids
+# ═══✰ Delirium - Liquids ✰═══
 # tier 1 - Concentrates, t3 sound
 Show
 BaseType "Concentrated Liquid Fear" "Concentrated Liquid Suffering" "Concentrated Liquid Isolation"
@@ -459,6 +405,7 @@ MinimapIcon 0 Blue Star
 CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # tier 5 - Normal Liquids
+Show
 BaseType "Liquid Paranoia" "Liquid Envy" "Liquid Disgust" "Liquid Despair"
 SetFontSize 36
 SetTextColor 255 255 255
@@ -476,15 +423,53 @@ SetTextColor 117 200 255
 SetBorderColor 130 192 255 200
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 
-# Talismans
-# Fox & Rabbit Talisman are "more important"
+# ═══✰ Essence - Essences ✰═══
+# tier 3 - Perfect Essence
 Show
-BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
-#BaseType " Talisman"
-SetTextColor 179 245 212
-PlayEffect Cyan
+BaseType "Perfect Essence of"
+SetFontSize 40
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246 230
+SetBackgroundColor 76 186 241
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
-# Omens
+# tier 4 - Greater Essence
+Show
+BaseType "Greater Essence of"
+SetFontSize 38
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246
+SetBackgroundColor 88 144 207
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
+
+# tier 5 - Generic Essence
+Show
+BaseType "Essence of"
+SetFontSize 36
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 53 71 130
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
+
+# ═══✰ Expedition - Excavated Chests ✰═══
+# tier 5
+Show
+BaseType "Exotic Coinage"
+SetFontSize 36
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 53 71 130
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
+
+# ═══✰ Ritual - Omens ✰═══
 Show
 BaseType "Omen of"
 SetTextColor 50 50 100
@@ -494,17 +479,52 @@ CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
 
-# Splinters
+# ═══✰ Ultimatum - Soul Cores ✰═══
+# tier 1
+Show
+BaseType "Ticaba" "Azcapa"
+SetFontSize 45
+SetTextColor 69 155 236
+SetBorderColor 69 155 236 200
+SetBackgroundColor 255 255 255
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+CustomAlertSound "jelly_scream.wav" 300
+
+# tier 3
+Show
+BaseType "Tacati" "Citaqualotl" "Jiquani"
+SetFontSize 40
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246 230
+SetBackgroundColor 76 186 241
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
+
+# tier 5 - Generic cores
+Show
+BaseType "Soul Core Of"
+SetFontSize 36
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 53 71 130
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
+
+# ═══✰ All Mechanics ✰═══
+# All - Splinters & Expedition Artifacts
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" "Petition Splinter" "Runic Splinter"
+BaseType "Simulacrum Splinter" "Breach Splinter" "Petition Splinter" "Runic Splinter" " Artifact" 
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 66 101 162
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 MinimapIcon 2 Grey Circle
 
-# Fragments or league mechanic "entry keys"
+# All - Fragments or league mechanic "entry keys"
 Show
 BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook" "Idol of Estazunti"
 SetFontSize 35
@@ -515,25 +535,7 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
 MinimapIcon 1 White Square
 
-# Abyss - invitations
-Show
-BaseType "Kulemak's Invitation"
-SetTextColor 139 235 47
-SetBorderColor 140 189 11
-SetBackgroundColor 0 0 0 230
-PlayEffect Green
-MinimapIcon 1 Green Circle
-
-# Abyss - bones
-Show
-BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium" "Preserved Vertebrae"
-SetTextColor 139 235 47
-SetBorderColor 140 189 11
-SetBackgroundColor 0 0 0 230
-PlayEffect Green
-MinimapIcon 1 Green Circle
-
-# catch misc currency not in filter
+# All - catch misc currency not in filter
 Show
 Class "Currency"
 SetTextColor 249 248 152
