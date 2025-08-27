@@ -325,7 +325,7 @@ SetBackgroundColor 20 20 0 230
 # tier 1 - 50+ ex
 Show
 SetFontSize 45
-BaseType "of Delirium" "Liquid Isolation" "Liquid Suffering" "Ticaba" "Azcapa"
+BaseType "of Delirium" "Ticaba" "Azcapa"
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
@@ -336,7 +336,7 @@ CustomAlertSound "jelly_scream.wav" 300
 # tier 2 - 25+ ex
 Show
 SetFontSize 45
-BaseType "of Insanity" "Rabbit Talisman" "Liquid Fear"
+BaseType "of Insanity"
 SetTextColor 55 92 217
 SetBorderColor 55 92 217 200
 SetBackgroundColor 255 255 255
@@ -347,7 +347,7 @@ CustomAlertSound "jelly_scream.wav" 300
 # tier 3 - 5+ ex
 Show
 SetFontSize 40
-BaseType "of Horror" "of Hysteria" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Abrasion" "Tacati" "Citaqualotl" "Jiquani" "Fox Talisman" "Liquid Despair" 
+BaseType "of Horror" "of Hysteria" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Abrasion" "Tacati" "Citaqualotl" "Jiquani"
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
@@ -358,7 +358,7 @@ CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 # tier 4 - 2+ ex
 Show
 SetFontSize 38
-BaseType "Greater Essence of" "Liquid Disgust"
+BaseType "Greater Essence of"
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246
 SetBackgroundColor 88 144 207
@@ -369,7 +369,7 @@ CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 # tier 5 - 1 ex
 Show
 SetFontSize 36
-BaseType "Essence of" "Soul Core Of" "Talisman" "Catalyst" "Paranoia" "Exotic Coinage" "Liquid Envy"
+BaseType "Essence of" "Soul Core Of" "Talisman" "Catalyst" "Paranoia" "Exotic Coinage"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
@@ -378,25 +378,25 @@ MinimapIcon 1 White Circle
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
 # tier 6 - <1 ex
-Show
-BaseType "Liquid Greed"
-SetFontSize 34
-SetTextColor 117 200 255
-SetBorderColor 130 192 255 200
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
+# Show
+# BaseType
+# SetFontSize 34
+# SetTextColor 117 200 255
+# SetBorderColor 130 192 255 200
+# CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 
 # tier 7 - <1/5 ex
 Show
-BaseType "Liquid Guilt" "Artifact"
+BaseType "Artifact"
 SetTextColor 106 169 252
 SetBorderColor 40 80 129 230
 
 # tier 8 - <1/30 ex
-Show
-BaseType "Liquid Ire"
-SetFontSize 30
-SetTextColor 61 121 211
-SetBorderColor 47 87 173 200
+# Show
+# BaseType
+# SetFontSize 30
+# SetTextColor 61 121 211
+# SetBorderColor 47 87 173 200
 
 # tier 9 - free
 # Show
@@ -407,7 +407,45 @@ SetBorderColor 47 87 173 200
 # SetBorderColor 204 232 246 80
 # SetBackgroundColor 20 20 0 230
 
-# Omen - todo remove this (omen tiering)
+# Liquids
+# tier 1 - Concentrates, t3 sound
+Show
+SetFontSize 45
+BaseType "Concentrated Liquid Fear" "Concentrated Liquid Suffering" "Concentrated Liquid Isolation"
+SetTextColor 69 155 236
+SetBorderColor 69 155 236 200
+SetBackgroundColor 255 255 255
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
+
+# tier 5 - Normal Liquids
+SetFontSize 36
+BaseType "Liquid Paranoia" "Liquid Envy" "Liquid Disgust" "Liquid Despair"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255 200
+SetBackgroundColor 53 71 130
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
+
+# tier 6 - Dilited Liquids
+Show
+BaseType "Diluted Liquid Ire" "Diluted Liquid Guilt" "Diluted Liquid Greed"
+SetFontSize 34
+SetTextColor 117 200 255
+SetBorderColor 130 192 255 200
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
+
+# Talismans
+# Fox & Rabbit Talisman are "more important"
+Show
+BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
+#BaseType " Talisman"
+SetTextColor 179 245 212
+PlayEffect Cyan
+
+# Omens
 Show
 BaseType "Omen of"
 SetTextColor 50 50 100
@@ -417,7 +455,7 @@ CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
 
-# splinters
+# Splinters
 Show
 Class "Currency"
 BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" "Petition Splinter" "Runic Splinter"
@@ -427,7 +465,7 @@ SetBackgroundColor 66 101 162
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 MinimapIcon 2 Grey Circle
 
-# fragments or league mechanic "entry keys"
+# Fragments or league mechanic "entry keys"
 Show
 BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook" "Idol of Estazunti"
 SetTextColor 204 232 246
