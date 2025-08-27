@@ -1,6 +1,6 @@
-# ═══════════════════════════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰awawa strict filter version 3.4 - 0.3.0_pre✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════
+# ═════✰ awawa strict filter version 3.4 - 0.3.0_pre ✰═════
+# ══════════════════════════════════════════════════════════
 # awawa strict filter
 # everything from regular
 # hide charms
@@ -8,9 +8,9 @@
 # hide salvagables that give <2 currency
 # hide ALL normal & magic items, exluding jewellery
 
-# ══════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Uniques✰〗══✲⋅*,∴°═══
-# ══════════════════════════════════
+# ══════════════════════
+# ═════✰ Uniques ✰═════
+# ══════════════════════
 Show
 Rarity Unique
 SetTextColor 175 96 37 255
@@ -21,9 +21,9 @@ PlayEffect Brown
 MinimapIcon 2 Brown Star
 SetFontSize 38
 
-# ═══════════════════════════════
-# ═══°∴,*⋅✲══〖✰Gold✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════
+# ═══════════════════
+# ═════✰ Gold ✰═════
+# ═══════════════════
 # !rule strict
 Show
 BaseType == "Gold"
@@ -54,9 +54,9 @@ Hide
 BaseType == "Gold"
 StackSize < 500
 
-# ═════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Uncut Gems✰〗══✲⋅*,∴°═══
-# ═════════════════════════════════════
+# ═════════════════════════
+# ═════✰ Uncut Gems ✰═════
+# ═════════════════════════
 # stronger highlight for spirit gems
 Show
 BaseType "Uncut Spirit Gem"
@@ -120,9 +120,9 @@ SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
-# ═════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Relics, Jewels✰〗══✲⋅*,∴°═══
-# ═════════════════════════════════════════
+# ═════════════════════════════
+# ═════✰ Relics, Jewels ✰═════
+# ═════════════════════════════
 # Jewels
 Show 
 BaseType "Timeless"
@@ -164,9 +164,9 @@ Rarity < Unique
 #SetTextColor 179 245 212
 #PlayEffect Cyan Temp
 
-# ════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Runes & talismans✰〗══✲⋅*,∴°═══
-# ════════════════════════════════════════════
+# ════════════════════════════════
+# ═════✰ Runes & talismans ✰═════
+# ════════════════════════════════
 # talismans
 # Show
 # BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
@@ -198,9 +198,9 @@ BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser 
 SetTextColor 179 245 212
 PlayEffect Cyan Temp
 
-# ═════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Misc Important✰〗══✲⋅*,∴°═══
-# ═════════════════════════════════════════
+# ═════════════════════════════
+# ═════✰ Misc Important ✰═════
+# ═════════════════════════════
 # breach rings
 Show 
 BaseType == "Breach Ring"
@@ -212,9 +212,9 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
 
-# ═══════════════════════════════
-# ═══°∴,*⋅✲══〖✰Keys✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════
+# ═══════════════════
+# ═════✰ Keys ✰═════
+# ═══════════════════
 # sekhemas trial keys
 Show
 BaseType "Gold Key" "Silver Key" "Bronze Key"
@@ -226,7 +226,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 35
 
-# pinnacle keys
+# pinnacle keys (Calamity Fragments - primary, secondary, tertiary)
 Show
 Class "Pinnacle Keys"
 SetTextColor 235 200 110 255
@@ -247,9 +247,9 @@ PlayEffect White
 MinimapIcon 1 Yellow Square
 SetFontSize 40
 
-# ═══════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Currency✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════════
+# ═══════════════════════
+# ═════✰ Currency ✰═════
+# ═══════════════════════
 # tier 0 - mirror
 Show
 Class "Currency"
@@ -355,8 +355,8 @@ SetTextColor 204 232 246 200
 SetBorderColor 204 232 246 80
 SetBackgroundColor 20 20 0 230
 
-# ═══°∴,*⋅✲══〖✰League Mechanics✰〗══✲⋅*,∴°═══
-# Liquids, Catalysts, Essences, Omens, Talismans, Expedition, Breach, Soul Cores
+# ═══✰ League Mechanics ✰═══
+# Liquids, Catalysts, Essences, Omens, Talismans, Expedition, Breach, Soul Cores, Abyss
 
 # tier 0 - mirror
 # Show
@@ -394,7 +394,7 @@ CustomAlertSound "jelly_scream.wav" 300
 # tier 3 - 5+ ex
 Show
 SetFontSize 40
-BaseType "of Horror" "of Hysteria" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Torment" "Tacati" "Citaqualotl" "Jiquani" "Fox Talisman" "Liquid Despair" 
+BaseType "of Horror" "of Hysteria" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Abrasion" "Tacati" "Citaqualotl" "Jiquani" "Fox Talisman" "Liquid Despair" 
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
@@ -467,7 +467,7 @@ MinimapIcon 1 White Circle
 # splinters
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
+BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" "Petition Splinter" "Runic Splinter"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 66 101 162
@@ -476,7 +476,7 @@ MinimapIcon 2 Grey Circle
 
 # fragments or league mechanic "entry keys"
 Show
-BaseType "Simulacrum" " Tablet" "Breachstone"
+BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook" "Idol of Estazunti"
 SetTextColor 204 232 246
 SetBorderColor 204 232 246
 SetBackgroundColor 72 94 169
@@ -485,14 +485,33 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
-# breach - preserved bones and invitations
+# Abyss - invitations
 Show
-BaseType "Preserved" "Kulemak's Invitation"
+BaseType "Kulemak's Invitation"
 SetTextColor 139 235 47
 SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230
 PlayEffect Green
 MinimapIcon 1 Green Circle
+
+# Abyss - bones
+Show
+BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium" "Preserved Vertebrae"
+SetTextColor 139 235 47
+SetBorderColor 140 189 11
+SetBackgroundColor 0 0 0 230
+PlayEffect Green
+MinimapIcon 1 Green Circle
+
+# New socketables "gazes"
+Show
+BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
+SetTextColor 255 255 255 255
+SetBorderColor 204 232 246
+SetBackgroundColor 88 144 207
+PlayEffect White
+MinimapIcon 1 White Circle
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
 # catch misc currency not in filter
 Show
@@ -504,9 +523,9 @@ CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Pink
 MinimapIcon 1 White Circle
 
-# ═══════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰maps (waystones)✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════════════════
+# ═══════════════════════════════
+# ═════✰ maps (waystones) ✰═════
+# ═══════════════════════════════
 # !rule regular
 # maps (waystones)
 # in higher area levels, remove sound & minimap icon of low tier maps
@@ -539,10 +558,10 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
-# ═══════════════════════════════
-# ═══°∴,*⋅✲══〖✰Gear✰〗══✲⋅*,∴°═══
-# ═══════════════════════════════
-# ═══°∴,*⋅✲══〖✰Exceptional Items✰〗══✲⋅*,∴°═══
+# ═══════════════════
+# ═════✰ Gear ✰═════
+# ═══════════════════
+# ═══✰ Exceptional Items ✰═══
 # max 30% qual or extra max socket
 Show
 BaseType "Exceptional"
@@ -553,7 +572,7 @@ PlayEffect Blue
 MinimapIcon 1 Blue Square
 SetFontSize 37
 
-# ═══°∴,*⋅✲══〖✰Tiered Items✰〗══✲⋅*,∴°═══
+# ═══✰ Tiered Items ✰═══
 # border for tier >= 2 items until add "tiering" colors
 Show
 Rarity >= Normal
@@ -564,7 +583,7 @@ SetBackgroundColor 0 0 0 250
 PlayEffect Purple
 SetFontSize 37
 
-# ═══°∴,*⋅✲══〖✰Rings, amulets, belts✰〗══✲⋅*,∴°═══
+# ═══✰ Rings, amulets, belts ✰═══
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Rare
@@ -584,7 +603,7 @@ Class "Rings" "Amulets" "Belts"
 Rarity Magic
 SetFontSize 35
 
-# ═══°∴,*⋅✲══〖✰Sockets, Quality✰〗══✲⋅*,∴°═══
+# ═══✰ Sockets, Quality ✰═══
 # 20 qual (prio over sockets)
 Show
 Quality = 20
@@ -640,9 +659,9 @@ SetTextColor 249 248 152
 #Rarity Magic
 #SetTextColor 99 132 243
 
-# ═════════════════════════════════════════════
-# ═══°∴,*⋅✲══〖✰Hide / Alter stuff✰〗══✲⋅*,∴°═══
-# ═════════════════════════════════════════════
+# ═════════════════════════════════
+# ═════✰ Hide / alter stuff ✰═════
+# ═════════════════════════════════
 # !rule strict
 # Hide lower level bases at endgame
 #Show

@@ -23,13 +23,13 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 ## Filter versions
 ### awawa lite filter
 - for campaign and early-mid endgame
-- awawa sounds and highlighting
+- awawa sounds and themed highlighting
 - beam for gold stacks over 500
 - in endgame waystones, opacity of low level items is reduced 
 
 ### awawa regular filter
 - for endgame
-- awawa sounds and highlighting
+- awawa sounds and themed highlighting
 - hide wisdom scrolls
 - gold stacks under 100 are smol
 - 1k+ gold stacks have a map highlight
@@ -41,7 +41,7 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 
 ### awawa strict filter
 - for those who know what they're doing & don't want to see normal/magic items
-- awawa sounds, highlighting, and strict hiding
+- awawa sounds, themed highlighting, and strict hiding
 - everything in awawa regular
 - 2k gold has beams, 5k gold shows on map, hide gold stacks under 500
 - hide ALL normal & magic items and charms
@@ -56,21 +56,16 @@ Using this module link you may choose your own strictness: https://www.filterbla
 If you do not yet have the filter sounds, grab them from: https://github.com/3r1/awawa/releases/download/3.0/awawa_filter_sounds.zip
 
 ## Todo
-### Post 0.3.0 launch
-- recolor new "Exceptional" items
-- update "Lineage Support Gem" filtering
-- post 0.3.0, update currency tiers and currency rebalancing
-  - support "normal", greater, perfect, also some lesser
-- see if BaseType "Simulacrum" " Tablet" "Breachstone" exist or are removed from filtering
-- may have to re-tier "Diluted" Liquid Emotions and "Concentrated" Liquid Emotions 
-- check up on list of socketables
+### For 0.3.0 launch
+- Awaiting correct method of filtering "Lineage Support Gem"s: no mention of "lineage" class in GGG item filter post 
 
 ### General todo
 - pray the filter works on 0.3.0 release on August 29th
-- update colors for jewels, runes, charms, relics, keys, tablets, logbooks, baryas, ultis
-- revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
+- decide what to do for greater & perfect of "chaos, transmute, exalt, regal, aug" (currently leaving base name to hit filter)
+- update colors for non currency items, revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
 - create color tiers for UnidentifiedItemTier items
-- potentially tweak gear coloring
+- potentially tweak gear coloring (quality, exceptional, socket, rarity, etc)
+- belt "# of charms" highlighting (for three)
 
 ## Credits/Thanks
 - core filter inspired from [NeverSink](https://github.com/NeverSinkDev/NeverSink-PoE2litefilter)
