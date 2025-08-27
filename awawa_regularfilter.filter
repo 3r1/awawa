@@ -19,13 +19,13 @@
 # ══════════════════════
 Show
 Rarity Unique
+SetFontSize 38
 SetTextColor 175 96 37 255
 SetBorderColor 175 96 37 200
 SetBackgroundColor 53 13 13 230
 CustomAlertSound "right_to_left_awawawawa.wav" 300
 PlayEffect Brown
 MinimapIcon 2 Brown Star
-SetFontSize 38
 
 # ═══════════════════
 # ═════✰ Gold ✰═════
@@ -48,9 +48,9 @@ SetBorderColor 235 200 110 150
 # small stacks small
 Show
 BaseType == "Gold"
+SetFontSize 15
 SetTextColor 235 200 110 150
 SetBackgroundColor 0 0 0 100
-SetFontSize 15
 
 # ═════════════════════════
 # ═════✰ Uncut Gems ✰═════
@@ -58,11 +58,11 @@ SetFontSize 15
 # stronger highlight for spirit gems
 Show
 BaseType "Uncut Spirit Gem"
+SetFontSize 36
 SetTextColor 0 0 0 230
 SetBorderColor 0 0 0 230
 #SetBorderColor 255 255 255 255
 SetBackgroundColor 179 245 212
-SetFontSize 36
 CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
@@ -71,10 +71,10 @@ MinimapIcon 1 Cyan Triangle
 Show
 AreaLevel < 65
 BaseType "Uncut Support Gem"
+SetFontSize 36
 SetTextColor 179 245 212
 SetBorderColor 255 255 255 200
 SetBackgroundColor 0 0 0 230
-SetFontSize 36
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
@@ -111,10 +111,10 @@ MinimapIcon 1 Cyan Triangle
 # 0.3.0_pre - temporarily give white background to support/skill gems until further info on unique gems
 Show 
 Class "Support" "Skill"
+SetFontSize 38
 SetTextColor 109 175 152
 SetBorderColor 109 175 152
 SetBackgroundColor 255 255 255
-SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
@@ -124,27 +124,27 @@ PlayEffect Cyan
 # Jewels
 Show 
 BaseType "Timeless"
+SetFontSize 38
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
-SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
 # relics
 Show 
 Class "Relic"
+SetFontSize 38
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
-SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
 # jewels
 Show
 Class "Jewel"
+SetFontSize 38
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
-SetFontSize 38
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
@@ -196,10 +196,10 @@ CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 # breach rings
 Show 
 BaseType == "Breach Ring"
+SetFontSize 38
 SetTextColor 204 232 246
 SetBorderColor 204 232 246
 SetBackgroundColor 72 94 169
-SetFontSize 38
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
@@ -210,34 +210,34 @@ PlayEffect Cyan
 # sekhemas trial keys
 Show
 BaseType "Gold Key" "Silver Key" "Bronze Key"
+SetFontSize 35
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 200
 #SetBackgroundColor 53 71 130 125
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 35
 
 # pinnacle keys (Calamity Fragments - primary, secondary, tertiary)
 Show
 Class "Pinnacle Keys"
+SetFontSize 40
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
 #SetBackgroundColor 53 71 130 125
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
 PlayEffect White
 MinimapIcon 1 Yellow Square
-SetFontSize 40
 
 # reliquary keys
 Show
 Class "Vault Keys"
+SetFontSize 40
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
 PlayEffect White
 MinimapIcon 1 Yellow Square
-SetFontSize 40
 
 # ═══════════════════════
 # ═════✰ Currency ✰═════
@@ -257,8 +257,8 @@ CustomAlertSound "what_the_h.wav" 300
 # tier 1 - 50+ ex
 Show
 Class "Currency"
-SetFontSize 45
 BaseType "Perfect Jeweller's Orb" "Divine Orb" "Hinekora"
+SetFontSize 45
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
@@ -269,8 +269,8 @@ CustomAlertSound "jelly_scream.wav" 300
 # tier 2 - 25+ ex
 Show
 Class "Currency"
-SetFontSize 45
 BaseType "Greater Jeweller's Orb"
+SetFontSize 45
 SetTextColor 55 92 217
 SetBorderColor 55 92 217 200
 SetBackgroundColor 255 255 255
@@ -281,8 +281,8 @@ CustomAlertSound "jelly_scream.wav" 300
 # tier 3 - 5+ ex
 Show
 Class "Currency"
-SetFontSize 40
 BaseType "Lesser Jeweller's Orb" "Fracturing Orb" "Orb of Chance"
+SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
@@ -293,8 +293,8 @@ CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 # tier 4 - 2+ ex
 Show
 Class "Currency"
-SetFontSize 38
 BaseType "Chaos Orb" "Gemcutter's Prism" "Orb of Annulment" "Vaal Orb"
+SetFontSize 38
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246
 SetBackgroundColor 88 144 207
@@ -305,8 +305,8 @@ CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 # tier 5 - 1 ex
 Show
 Class "Currency"
-SetFontSize 36
 BaseType "Exalted Orb"
+SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
@@ -348,7 +348,7 @@ SetBorderColor 204 232 246 80
 SetBackgroundColor 20 20 0 230
 
 # ═══✰ League Mechanics ✰═══
-# Liquids, Catalysts, Essences, Omens, Talismans, Expedition, Breach, Soul Cores, Abyss
+# Abyss, Breach, Delirium, Essence, Expedition, Ritual, Azmeri Sprits, Ultimatum
 
 # tier 0 - mirror
 # Show
@@ -363,8 +363,8 @@ SetBackgroundColor 20 20 0 230
 
 # tier 1 - 50+ ex
 Show
-SetFontSize 45
 BaseType "of Delirium" "Ticaba" "Azcapa"
+SetFontSize 45
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
@@ -374,8 +374,8 @@ CustomAlertSound "jelly_scream.wav" 300
 
 # tier 2 - 25+ ex
 Show
-SetFontSize 45
 BaseType "of Insanity"
+SetFontSize 45
 SetTextColor 55 92 217
 SetBorderColor 55 92 217 200
 SetBackgroundColor 255 255 255
@@ -385,8 +385,8 @@ CustomAlertSound "jelly_scream.wav" 300
 
 # tier 3 - 5+ ex
 Show
-SetFontSize 40
 BaseType "of Horror" "of Hysteria" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Abrasion" "Tacati" "Citaqualotl" "Jiquani"
+SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
@@ -396,8 +396,8 @@ CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # tier 4 - 2+ ex
 Show
-SetFontSize 38
 BaseType "Greater Essence of"
+SetFontSize 38
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246
 SetBackgroundColor 88 144 207
@@ -407,8 +407,8 @@ CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
 # tier 5 - 1 ex
 Show
-SetFontSize 36
 BaseType "Essence of" "Soul Core Of" "Talisman" "Catalyst" "Paranoia" "Exotic Coinage"
+SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
@@ -449,8 +449,8 @@ SetBorderColor 40 80 129 230
 # Liquids
 # tier 1 - Concentrates, t3 sound
 Show
-SetFontSize 45
 BaseType "Concentrated Liquid Fear" "Concentrated Liquid Suffering" "Concentrated Liquid Isolation"
+SetFontSize 45
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
@@ -459,8 +459,8 @@ MinimapIcon 0 Blue Star
 CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # tier 5 - Normal Liquids
-SetFontSize 36
 BaseType "Liquid Paranoia" "Liquid Envy" "Liquid Disgust" "Liquid Despair"
+SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
@@ -507,13 +507,13 @@ MinimapIcon 2 Grey Circle
 # Fragments or league mechanic "entry keys"
 Show
 BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook" "Idol of Estazunti"
+SetFontSize 35
 SetTextColor 204 232 246
 SetBorderColor 204 232 246
 SetBackgroundColor 72 94 169
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
 MinimapIcon 1 White Square
-SetFontSize 35
 
 # Abyss - invitations
 Show
@@ -554,9 +554,9 @@ WaystoneTier < 10
 AreaLevel > 77
 BaseType "Waystone"
 Rarity <= Rare
+SetFontSize 35
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
-SetFontSize 35
 
 # !rule regular
 Show
@@ -564,19 +564,19 @@ WaystoneTier < 5
 AreaLevel > 74
 BaseType "Waystone"
 Rarity <= Rare
+SetFontSize 35
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
-SetFontSize 35
 
 Show
 BaseType "Waystone"
 Rarity <= Rare
+SetFontSize 35
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
 MinimapIcon 1 White Square
-SetFontSize 35
 
 # ═══════════════════
 # ═════✰ Gear ✰═════
@@ -585,23 +585,23 @@ SetFontSize 35
 # max 30% qual or extra max socket
 Show
 BaseType "Exceptional"
+SetFontSize 37
 SetBorderColor 50 241 255
 SetBackgroundColor 27 37 56
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Blue
 MinimapIcon 1 Blue Square
-SetFontSize 37
 
 # ═══✰ Tiered Items ✰═══
 # border for tier >= 2 items until add "tiering" colors
 Show
 Rarity >= Normal
 UnidentifiedItemTier >= 2
+SetFontSize 37
 SetTextColor 249 248 152
 SetBorderColor 159 112 247
 SetBackgroundColor 0 0 0 250
 PlayEffect Purple
-SetFontSize 37
 
 # ═══✰ Rings, amulets, belts ✰═══
 Show
@@ -627,44 +627,44 @@ SetFontSize 35
 # 20 qual (prio over sockets)
 Show
 Quality = 20
+SetFontSize 37
 SetBorderColor 50 241 255
 SetBackgroundColor 27 37 56
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Blue
 MinimapIcon 1 Blue Square
-SetFontSize 37
 
 Show
 Sockets "S" "SS" "SSS"
 Rarity Normal
-SetBorderColor 255 255 255 200
 SetFontSize 37
+SetBorderColor 255 255 255 200
 
 Show
 Sockets "S" "SS" "SSS"
 Rarity Magic
+SetFontSize 37
 SetTextColor 93 117 196
 SetBorderColor 255 255 255 200
-SetFontSize 37
 
 Show
 Sockets "S" "SS" "SSS"
 Rarity Rare
+SetFontSize 37
 SetTextColor 249 248 152
 SetBorderColor 255 255 255 200
-SetFontSize 37
 
 Show
 Quality > 10
+SetFontSize 37
 SetBorderColor 50 150 255
 SetBackgroundColor 27 37 56
-SetFontSize 37
 
 Show
 Quality > 0
+SetFontSize 37
 SetBorderColor 0 94 230
 #SetBorderColor 50 150 255
-SetFontSize 37
 
 # ═══°∴,*⋅✲══〖✰Generic Magic & Rare✰〗══✲⋅*,∴°═══
 Show
