@@ -2,7 +2,7 @@
 
 ![image previewing poe2_item_filter](/preview_v3.png)
 
-**awawa filter** is a PoE2 filter that makes awawa noises on item drops and is themed around Jelly Hoshiumi's color palette.
+**awawa filter** is a PoE2 filter that makes awawa noises on item drops and is themed around Jelly Hoshiumi's color palette. It is an unaffiliated fan work.
 
 Features:
 - highlight and colors for all the important stuff
@@ -49,23 +49,29 @@ Grab the latest release from https://github.com/3r1/awawa/releases
 - does not hide jewellery, socketables, or currency
 
 ## Filterblade module
-There is a filterblade awawa module with sounds & color theming.
+There is a filterblade awawa module with sounds & color theming. The module is not up to date and sounds may not be applied to new items.
 
 Using this module link you may choose your own strictness: https://www.filterblade.xyz/?profile=Elaroz&saveState=AJ22P5YRFGTS2K&isPreset=true&game=Poe2&preview=true
+
+Sounds-only module: https://www.filterblade.xyz/?profile=Elaroz&saveState=0LPNZ3519EMKEN&isPreset=true&game=Poe2&preview=true
+
+Basic poe1 sounds-only module: https://www.filterblade.xyz/?profile=Elaroz&saveState=THJIJ0T6RDRZR7&isPreset=true&game=Poe1&preview=true 
 
 If you do not yet have the filter sounds, grab them from: https://github.com/3r1/awawa/releases/download/3.0/awawa_filter_sounds.zip
 
 ## Todo
 ### For 0.3.0 launch
+- pray the filter works on 0.3.0 release on August 29th
 - Awaiting correct method of filtering "Lineage Support Gem"s: no mention of "lineage" class in GGG item filter post 
+- decide what to do for greater & perfect of "chaos, transmute, exalt, regal, aug" (currently leaving base name to hit filter, may add different border color)
 
 ### General todo
-- pray the filter works on 0.3.0 release on August 29th
-- decide what to do for greater & perfect of "chaos, transmute, exalt, regal, aug" (currently leaving base name to hit filter)
 - update colors for non currency items, revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
 - create color tiers for UnidentifiedItemTier items
 - potentially tweak gear coloring (quality, exceptional, socket, rarity, etc)
 - belt "# of charms" highlighting (for three)
+- change gem coloring/tiering (level 5 support?)
+- revisit PlayEffect and MinimapIcon effects
 
 ## Credits/Thanks
 - core filter inspired from [NeverSink](https://github.com/NeverSinkDev/NeverSink-PoE2litefilter)
