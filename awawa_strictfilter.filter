@@ -164,16 +164,9 @@ Rarity < Unique
 #SetTextColor 179 245 212
 #PlayEffect Cyan Temp
 
-# ════════════════════════════════
-# ═════✰ Runes & talismans ✰═════
-# ════════════════════════════════
-# talismans
-# Show
-# BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
-# BaseType " Talisman"
-# SetTextColor 179 245 212
-# PlayEffect Cyan
-
+# ════════════════════════════
+# ═════✰ Runes & Gazes ✰═════
+# ════════════════════════════
 # special
 Show
 BaseType "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility"
@@ -197,6 +190,15 @@ Show
 BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Lesser Adept Rune" "Lesser Robust Rune" "Lesser Resolve Rune"
 SetTextColor 179 245 212
 PlayEffect Cyan Temp
+
+# New socketables "gazes"
+Show
+BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
+SetTextColor 179 245 212
+SetBorderColor 179 245 212
+PlayEffect Cyan Temp
+MinimapIcon 1 Cyan Circle
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
 # ═════════════════════════════
 # ═════✰ Misc Important ✰═════
@@ -502,16 +504,6 @@ SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230
 PlayEffect Green
 MinimapIcon 1 Green Circle
-
-# New socketables "gazes"
-Show
-BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
-SetTextColor 255 255 255 255
-SetBorderColor 204 232 246
-SetBackgroundColor 88 144 207
-PlayEffect White
-MinimapIcon 1 White Circle
-CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
 # catch misc currency not in filter
 Show
