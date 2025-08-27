@@ -328,6 +328,7 @@ SetBackgroundColor 20 20 0 230
 # Invitation
 Show
 BaseType "Kulemak's Invitation"
+SetFontSize 40
 SetTextColor 139 235 47
 SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230
