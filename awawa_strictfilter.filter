@@ -57,6 +57,17 @@ StackSize < 500
 # ═════════════════════════
 # ═════✰ Uncut Gems ✰═════
 # ═════════════════════════
+# stronger highlight for bis gems
+Show
+BaseType "Uncut Support Gem (Level 5)" "Uncut Spirit Gem (Level 20)" "Uncut Skill Gem (Level 20)"
+SetFontSize 36
+SetTextColor 109 175 152
+SetBorderColor 109 175 152
+SetBackgroundColor 255 255 255
+CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
+
 # stronger highlight for spirit gems
 Show
 BaseType "Uncut Spirit Gem"
