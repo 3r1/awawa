@@ -386,7 +386,7 @@ MinimapIcon 1 Green Circle
 # ═══✰ Azmeri Spirits - Talismans ✰═══
 # tier 3 - Better socketables
 Show
-BaseType "Rabbit Talisman" "Fox Talisman"
+BaseType "Fox Talisman" "Rabbit Talisman" "Eeshta Talisman" "Egrin Talisman" "Grold Talisman" "Maxarius Talisman" "Ralakesh Talisman" "Sirrius Talisman" "Thruldana Talisman"
 SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
@@ -397,7 +397,7 @@ CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # generic
 Show
-BaseType "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman"
+BaseType "Bear Talisman" "Boar Talisman" "Cat Talisman" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Serpent Talisman" "Stag Talisman" "Wolf Talisman"
 #BaseType " Talisman"
 SetTextColor 179 245 212
 PlayEffect Cyan
