@@ -207,9 +207,9 @@ Show
 BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 PlayEffect Cyan Temp
 MinimapIcon 1 Cyan Circle
-CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
 # ═════════════════════════════
 # ═════✰ Misc Important ✰═════
@@ -271,9 +271,9 @@ SetFontSize 45
 SetTextColor 200 101 242
 SetBorderColor 200 101 242
 SetBackgroundColor 255 255 255
+CustomAlertSound "what_the_h.wav" 300
 PlayEffect Pink
 MinimapIcon 0 Pink Star
-CustomAlertSound "what_the_h.wav" 300
 
 # tier 1
 Show
@@ -283,9 +283,9 @@ BaseType "Perfect Jeweller's Orb" "Divine Orb" "Hinekora"
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
+CustomAlertSound "jelly_scream.wav" 300
 PlayEffect Blue
 MinimapIcon 0 Blue Star
-CustomAlertSound "jelly_scream.wav" 300
 
 # tier 2
 Show
@@ -295,9 +295,9 @@ BaseType "Greater Jeweller's Orb"
 SetTextColor 55 92 217
 SetBorderColor 55 92 217 200
 SetBackgroundColor 255 255 255
+CustomAlertSound "jelly_scream.wav" 300
 PlayEffect Blue
 MinimapIcon 0 Blue Star
-CustomAlertSound "jelly_scream.wav" 300
 
 # tier 3
 Show
@@ -307,9 +307,9 @@ BaseType "Lesser Jeweller's Orb" "Fracturing Orb" "Orb of Chance"
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # tier 4
 Show
@@ -319,9 +319,9 @@ BaseType "Chaos Orb" "Gemcutter's Prism" "Orb of Annulment" "Vaal Orb"
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246
 SetBackgroundColor 88 144 207
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
 # tier 5
 Show
@@ -331,9 +331,9 @@ BaseType "Exalted Orb"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
 # tier 6
 Show
@@ -402,9 +402,9 @@ SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # generic
 Show
@@ -421,9 +421,9 @@ SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
 # ═══✰ Delirium - Liquids ✰═══
 # tier 1 - Concentrates, t3 sound
@@ -433,9 +433,9 @@ SetFontSize 45
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect Blue
 MinimapIcon 0 Blue Star
-CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # tier 5 - Normal Liquids
 Show
@@ -444,9 +444,9 @@ SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
 # tier 6 - Dilited Liquids
 Show
@@ -464,9 +464,9 @@ SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # tier 4 - Greater Essence
 Show
@@ -475,9 +475,9 @@ SetFontSize 38
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246
 SetBackgroundColor 88 144 207
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 
 # tier 5 - Generic Essence
 Show
@@ -486,9 +486,9 @@ SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
 # ═══✰ Expedition - Excavated Chests ✰═══
 # tier 5
@@ -498,9 +498,9 @@ SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
 # ═══✰ Ritual - Omens ✰═══
 Show
@@ -520,9 +520,9 @@ SetFontSize 45
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
+CustomAlertSound "jelly_scream.wav" 300
 PlayEffect Blue
 MinimapIcon 0 Blue Star
-CustomAlertSound "jelly_scream.wav" 300
 
 # tier 3
 Show
@@ -531,9 +531,9 @@ SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 
 # tier 5 - Generic cores
 Show
@@ -542,9 +542,9 @@ SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
+CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 PlayEffect White
 MinimapIcon 1 White Circle
-CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 
 # ═══✰ All Mechanics ✰═══
 # All - Splinters & Expedition Artifacts
@@ -636,8 +636,8 @@ SetFontSize 37
 SetTextColor 209 129 255
 SetBorderColor 159 112 247
 SetBackgroundColor 37 27 56 230
-PlayEffect Purple Temp
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect Purple Temp
 
 Show
 UnidentifiedItemTier  3
@@ -645,8 +645,8 @@ SetFontSize 37
 SetTextColor 255 129 255
 SetBorderColor 255 112 247
 SetBackgroundColor 55 35 73 230
-PlayEffect Purple Temp
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+PlayEffect Purple Temp
 
 Show
 UnidentifiedItemTier 4
@@ -654,8 +654,8 @@ SetFontSize 37
 SetTextColor 255 150 200
 SetBorderColor 255 150 200
 SetBackgroundColor 68 33 68 230
-PlayEffect Pink Temp
 CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
+PlayEffect Pink
 
 Show
 UnidentifiedItemTier 5
@@ -663,8 +663,8 @@ SetFontSize 37
 SetTextColor 241 123 149
 SetBorderColor 241 123 149
 SetBackgroundColor 51 35 23 230
-PlayEffect Red Temp
 CustomAlertSound "awawawawawawa_fade_out-[Wim73qyxhiQ].wav" 300
+PlayEffect Red
 
 # ═══✰ Rings, amulets, belts ✰═══
 Show
