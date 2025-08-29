@@ -550,21 +550,21 @@ MinimapIcon 1 White Square
 Show
 BaseType "Exceptional"
 SetFontSize 37
-SetBorderColor 50 241 255
-SetBackgroundColor 27 37 56
+SetTextColor 255 100 255
+SetBorderColor 255 150 255 230
+SetBackgroundColor 60 50 80 230
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
-PlayEffect Blue
-MinimapIcon 1 Blue Square
+MinimapIcon 1 Pink UpsideDownHouse
+PlayEffect Pink
 
 # ═══✰ Tiered Items ✰═══
 # border for tier >= 2 items until add "tiering" colors
 Show
-Rarity >= Normal
 UnidentifiedItemTier >= 2
 SetFontSize 37
-SetTextColor 249 248 152
+SetTextColor 209 129 255
 SetBorderColor 159 112 247
-SetBackgroundColor 0 0 0 250
+SetBackgroundColor 37 27 56 230
 PlayEffect Purple
 
 # ═══✰ Rings, amulets, belts ✰═══
@@ -593,10 +593,10 @@ Show
 Quality = 20
 SetFontSize 37
 SetBorderColor 50 241 255
-SetBackgroundColor 27 37 56
+SetBackgroundColor 27 50 90 230
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect Blue
-MinimapIcon 1 Blue Square
+MinimapIcon 1 Blue UpsideDownHouse
 
 Show
 Sockets "S" "SS" "SSS"
@@ -622,12 +622,12 @@ Show
 Quality > 10
 SetFontSize 37
 SetBorderColor 50 150 255
-SetBackgroundColor 27 37 56
+SetBackgroundColor 27 37 56 230
 
 Show
 Quality > 0
 SetFontSize 37
-SetBorderColor 0 94 230
+SetBorderColor 0 94 230 230
 #SetBorderColor 50 150 255
 
 # ═══✰ Generic Magic & Rare ✰═══
