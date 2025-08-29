@@ -427,8 +427,8 @@ BaseType "Greater Essence of"
 SetFontSize 38
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246
-SetBackgroundColor 88 144 207CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
-
+SetBackgroundColor 88 144 207
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
 PlayEffect White
 MinimapIcon 1 White Circle
 
