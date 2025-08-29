@@ -182,25 +182,27 @@ Rarity < Unique
 Show
 BaseType "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility"
 SetTextColor 179 245 212
-PlayEffect Cyan
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
 
 # greater
 Show
 BaseType "Greater Desert Rune" "Greater Glacial Rune" "Greater Storm Rune" "Greater Iron Rune" "Greater Body Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Inspiration Rune" "Greater Stone Rune" "Greater Vision Rune""Greater Adept Rune" "Greater Robust Rune" "Greater Resolve Rune"
 SetTextColor 179 245 212
-PlayEffect Cyan Temp
+PlayEffect Green Temp
+MinimapIcon 1 Green Hexagon
 
 # normal
 Show
 BaseType "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"  "Adept Rune" "Robust Rune" "Resolve Rune"
 SetTextColor 179 245 212
-PlayEffect Cyan Temp
+PlayEffect Green Temp
 
 # lesser
 Show
 BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Lesser Adept Rune" "Lesser Robust Rune" "Lesser Resolve Rune"
 SetTextColor 179 245 212
-PlayEffect Cyan Temp
+PlayEffect Green Temp
 
 # New socketables "gazes"
 Show
@@ -208,8 +210,8 @@ BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
 CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
-PlayEffect Cyan Temp
-MinimapIcon 1 Cyan Circle
+PlayEffect Green Temp
+MinimapIcon 1 Green Hexagon
 
 # ═════════════════════════════
 # ═════✰ Misc Important ✰═════
@@ -236,8 +238,8 @@ SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 200
 #SetBackgroundColor 53 71 130 125
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
-PlayEffect White
-MinimapIcon 1 White Circle
+PlayEffect Yellow
+MinimapIcon 1 Yellow Pentagon
 
 # pinnacle keys (Calamity Fragments - primary, secondary, tertiary)
 Show
@@ -247,8 +249,8 @@ SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
 #SetBackgroundColor 53 71 130 125
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
-PlayEffect White
-MinimapIcon 1 Yellow Square
+PlayEffect Yellow
+MinimapIcon 1 Yellow Pentagon
 
 # reliquary keys
 Show
@@ -257,8 +259,8 @@ SetFontSize 40
 SetTextColor 235 200 110 255
 SetBorderColor 235 200 110 255
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 300
-PlayEffect White
-MinimapIcon 1 Yellow Square
+PlayEffect Yellow
+MinimapIcon 1 Yellow Pentagon
 
 # ═══════════════════════
 # ═════✰ Currency ✰═════
@@ -522,7 +524,7 @@ SetBorderColor 69 155 236 200
 SetBackgroundColor 255 255 255
 CustomAlertSound "jelly_scream.wav" 300
 PlayEffect Blue
-MinimapIcon 0 Blue Star
+MinimapIcon 0 Blue Hexagon
 
 # tier 3
 Show
@@ -533,7 +535,7 @@ SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
 CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
 PlayEffect White
-MinimapIcon 1 White Circle
+MinimapIcon 1 White Hexagon
 
 # tier 5 - Generic cores
 Show
@@ -544,7 +546,7 @@ SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
 CustomAlertSound "awawawa_steady-[uqKlBPFg5hs].wav" 280
 PlayEffect White
-MinimapIcon 1 White Circle
+MinimapIcon 1 White Hexagon
 
 # ═══✰ All Mechanics ✰═══
 # All - Splinters & Expedition Artifacts
@@ -555,7 +557,7 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 66 101 162
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
-MinimapIcon 2 Grey Circle
+MinimapIcon 2 Grey Kite
 
 # All - Fragments or league mechanic "entry keys"
 Show
@@ -566,7 +568,7 @@ SetBorderColor 204 232 246
 SetBackgroundColor 72 94 169
 CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
 PlayEffect White
-MinimapIcon 1 White Square
+MinimapIcon 1 White Pentagon
 
 # All - catch misc currency not in filter
 Show
