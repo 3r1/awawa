@@ -350,7 +350,7 @@ MinimapIcon 1 Green Circle
 # ═══✰ Azmeri Spirits - Talismans ✰═══
 # tier 3 - Better socketables
 Show
-BaseType "Fox Talisman" "Rabbit Talisman" "Eeshta Talisman" "Egrin Talisman" "Grold Talisman" "Maxarius Talisman" "Ralakesh Talisman" "Sirrius Talisman" "Thruldana Talisman"
+BaseType "Fox Talisman" "Rabbit Talisman" "Talisman of Eeshta" "Talisman of Egrin" "Talisman of Grold" "Talisman of Maxarius" "Talisman of Ralakesh" "Talisman of Sirrius" "Talisman of Thruldana" 
 SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
