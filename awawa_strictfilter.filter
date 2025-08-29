@@ -624,19 +624,47 @@ SetFontSize 37
 SetTextColor 255 100 255
 SetBorderColor 255 150 255 230
 SetBackgroundColor 60 50 80 230
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awawawawawawa_fade_out-[Wim73qyxhiQ].wav" 300
 MinimapIcon 1 Pink UpsideDownHouse
 PlayEffect Pink
 
 # ═══✰ Tiered Items ✰═══
-# border for tier >= 2 items until add "tiering" colors
+# border for tier >= 2 items
 Show
-UnidentifiedItemTier >= 2
+UnidentifiedItemTier  2
 SetFontSize 37
 SetTextColor 209 129 255
 SetBorderColor 159 112 247
 SetBackgroundColor 37 27 56 230
-PlayEffect Purple
+PlayEffect Purple Temp
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+
+Show
+UnidentifiedItemTier  3
+SetFontSize 37
+SetTextColor 255 129 255
+SetBorderColor 255 112 247
+SetBackgroundColor 55 35 73 230
+PlayEffect Purple Temp
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+
+Show
+UnidentifiedItemTier 4
+SetFontSize 37
+SetTextColor 255 150 200
+SetBorderColor 255 150 200
+SetBackgroundColor 68 33 68 230
+PlayEffect Pink Temp
+CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
+
+Show
+UnidentifiedItemTier 5
+SetFontSize 37
+SetTextColor 241 123 149
+SetBorderColor 241 123 149
+SetBackgroundColor 51 35 23 230
+PlayEffect Red Temp
+CustomAlertSound "awawawawawawa_fade_out-[Wim73qyxhiQ].wav" 300
 
 # ═══✰ Rings, amulets, belts ✰═══
 Show
