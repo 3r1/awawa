@@ -60,16 +60,16 @@ Basic poe1 sounds-only module: https://www.filterblade.xyz/?profile=Elaroz&saveS
 If you do not yet have the filter sounds, grab them from: https://github.com/3r1/awawa/releases/download/3.0/awawa_filter_sounds.zip
 
 ## Todo
-### For 0.3.0 launch
-- pray the filter works on 0.3.0 release on August 29th
-- Awaiting correct method of filtering "Lineage Support Gem"s: no mention of "lineage" class in GGG item filter post 
-- decide what to do for greater & perfect of "chaos, transmute, exalt, regal, aug" (currently leaving base name to hit filter, may add different border color)
+### For 0.4.0 launch
+- pray the filter works on 0.4.0 release on December 12th
 
 ### General todo
+- currency retiering: greater & perfect of "chaos, transmute, exalt, regal, aug" are untouched
+- better filtering for lineage supports
 - update colors for non currency items, revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
-- create color tiers for UnidentifiedItemTier items
+- revisit color tiers for UnidentifiedItemTier items (are they still useless and should just be colored as rares?)
 - potentially tweak gear coloring (quality, exceptional, socket, rarity, etc)
-- belt "# of charms" highlighting (for three)
+- belt "# of charms" highlighting (for three+)
 - change gem coloring/tiering (level 5 support?)
 - revisit PlayEffect and MinimapIcon effects
 
