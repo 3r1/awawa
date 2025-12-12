@@ -333,7 +333,20 @@ SetBackgroundColor 20 20 0 230
 # ═══════════════════════════════
 # ═════✰ League Mechanics ✰═════
 # ═══════════════════════════════
-# Abyss, Azmeri Sprits, Breach, Delirium, Essence, Expedition, Ritual, Ultimatum
+# Abyss, Azmeri Sprits, Breach, Delirium, Essence, Expedition, Ritual, Ultimatum, Vaal
+
+# ═══✰ Vaal ✰═══
+# new vaal currency
+# including Vaal Siphoner (item class: Incubator)
+Show
+BaseType "Core Destabiliser" "Vaal Infuser" "Architect's Orb" "Ancient Infuser" "Orb of Extraction" "Crystallised Corruption" "Vaal Cultivation Orb" "Vaal Siphoner"
+SetFontSize 36
+SetTextColor 235 47 47
+SetBorderColor 189 11 11
+SetBackgroundColor 0 0 0 230
+CustomAlertSound "awawa_high_end-[GAELXfFcDac].wav" 300
+PlayEffect Red
+MinimapIcon 1 Red Circle
 
 # ═══✰ Abyss ✰═══
 # Invitation
