@@ -127,9 +127,9 @@ BaseType " Charm"
 SetTextColor 179 245 212
 PlayEffect Cyan Temp
 
-# ════════════════════════════
-# ═════✰ Runes & Gazes ✰═════
-# ════════════════════════════
+# ═══════════════════════════════
+# ═════✰ Runes (augments) ✰═════
+# ═══════════════════════════════
 # special
 Show
 BaseType "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility"
@@ -156,9 +156,18 @@ BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser 
 SetTextColor 179 245 212
 PlayEffect Green Temp
 
-# New augments "gazes"
+# Abyss augments "gazes"
 Show
 BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
+SetTextColor 179 245 212
+SetBorderColor 179 245 212
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
+PlayEffect Green Temp
+MinimapIcon 1 Green Hexagon
+
+# Vaal aguments "thesis"
+Show
+BaseType "Quipolatl's Thesis" "Jiquani's Thesis" "Guatelitzi's Thesis" "Citaqualotl's Thesis"
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
 CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
@@ -675,7 +684,7 @@ SetTextColor 93 117 196
 # Reduce background opacity on lower level bases at endgame
 Show
 Rarity <= Magic
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands" "Talismans"
 AreaLevel >= 65
 DropLevel <= 50
 SetBackgroundColor 0 0 0 125

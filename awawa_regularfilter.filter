@@ -165,9 +165,9 @@ BaseType " Charm"
 SetTextColor 179 245 212
 PlayEffect Cyan Temp
 
-# ════════════════════════════
-# ═════✰ Runes & Gazes ✰═════
-# ════════════════════════════
+# ═══════════════════════════════
+# ═════✰ Runes (augments) ✰═════
+# ═══════════════════════════════
 # special
 Show
 BaseType "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility"
@@ -194,9 +194,18 @@ BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser 
 SetTextColor 179 245 212
 PlayEffect Green Temp
 
-# New augments "gazes"
+# Abyss augments "gazes"
 Show
 BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
+SetTextColor 179 245 212
+SetBorderColor 179 245 212
+CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
+PlayEffect Green Temp
+MinimapIcon 1 Green Hexagon
+
+# Vaal aguments "thesis"
+Show
+BaseType "Quipolatl's Thesis" "Jiquani's Thesis" "Guatelitzi's Thesis" "Citaqualotl's Thesis"
 SetTextColor 179 245 212
 SetBorderColor 179 245 212
 CustomAlertSound "awawawawa_high_end-[_UXnomXFV7w].wav" 300
@@ -747,28 +756,28 @@ Hide
 AreaLevel >= 78
 Rarity <= Magic
 DropLevel < 65
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Wands" "Talismans"
 
 # !rule regular
 Hide
 AreaLevel > 75
 Rarity <= Magic
 DropLevel < 64
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Wands" "Talismans"
 
 # !rule regular
 Hide
 AreaLevel > 73
 Rarity <= Magic
 DropLevel < 60
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Wands" "Talismans"
 
 # !rule regular
 Hide
 AreaLevel > 72
 Rarity <= Magic
 DropLevel < 55
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Two Hand Maces" "Wands"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres"  "Staves" "Wands" "Talismans"
 
 # !rule regular
 # Quivers have some relevant bases at 50+ so we treat them different
@@ -783,7 +792,7 @@ Hide
 AreaLevel > 70
 Rarity <= Normal
 DropLevel < 50
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers"
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Spears" "Bucklers" "Sceptres" "Staves" "Talismans"
 
 Show
 Rarity Magic
