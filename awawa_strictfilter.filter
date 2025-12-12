@@ -204,7 +204,7 @@ BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser 
 SetTextColor 179 245 212
 PlayEffect Green Temp
 
-# New socketables "gazes"
+# New augments "gazes"
 Show
 BaseType "Amanamu's Gaze" "Tecrod's Gaze" "Kurgal's Gaze" "Ulaman's Gaze"
 SetTextColor 179 245 212
@@ -389,17 +389,17 @@ MinimapIcon 1 Green Square
 
 # Bones
 Show
-BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium" "Preserved Vertebrae"
+BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium"
 SetTextColor 139 235 47
 SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230
 PlayEffect Green
 MinimapIcon 1 Green Circle
 
-# ═══✰ Azmeri Spirits - Talismans ✰═══
-# tier 3 - Better socketables
+# ═══✰ Azmeri Spirits - Idols ✰═══
+# tier 3 - Better augments
 Show
-BaseType "Fox Talisman" "Rabbit Talisman" "Talisman of Eeshta" "Talisman of Egrin" "Talisman of Grold" "Talisman of Maxarius" "Talisman of Ralakesh" "Talisman of Sirrius" "Talisman of Thruldana" 
+BaseType "Fox Idol" "Rabbit Idol" "Idol of Eeshta" "Idol of Egrin" "Idol of Grold" "Idol of Maxarius" "Idol of Ralakesh" "Idol of Sirrius" "Idol of Thruldana" 
 SetFontSize 40
 SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
@@ -410,8 +410,8 @@ MinimapIcon 1 White Circle
 
 # generic
 Show
-BaseType "Bear Talisman" "Boar Talisman" "Cat Talisman" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Serpent Talisman" "Stag Talisman" "Wolf Talisman"
-#BaseType " Talisman"
+BaseType "Bear Idol" "Boar Idol" "Cat Idol" "Owl Idol" "Ox Idol" "Primate Idol" "Serpent Idol" "Stag Idol" "Wolf Idol"
+#BaseType " Idol"
 SetTextColor 179 245 212
 PlayEffect Cyan
 
