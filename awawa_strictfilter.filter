@@ -432,7 +432,7 @@ MinimapIcon 1 White Circle
 
 # generic
 Show
-BaseType "Bear Idol" "Boar Idol" "Cat Idol" "Owl Idol" "Ox Idol" "Primate Idol" "Serpent Idol" "Stag Idol" "Wolf Idol"
+BaseType "Bear Idol" "Boar Idol" "Cat Idol" "Owl Idol" "Ox Idol" "Primate Idol" "Snake Idol" "Stag Idol" "Wolf Idol"
 #BaseType " Idol"
 SetTextColor 179 245 212
 PlayEffect Cyan
