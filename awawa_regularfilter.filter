@@ -378,7 +378,7 @@ SetBackgroundColor 20 20 0 230
 # new vaal currency
 # including Vaal Siphoner (item class: Incubator)
 Show
-BaseType "Core Destabiliser" "Vaal Infuser" "Architect's Orb" "Ancient Infuser" "Orb of Extraction" "Crystallised Corruption" "Vaal Cultivation Orb" "Vaal Siphoner"
+BaseType "Core Destabiliser" "Vaal Armourer's Infuser" "Architect's Orb" "Ancient Infuser" "Orb of Extraction" "Crystallised Corruption" "Vaal Cultivation Orb" "Vaal Siphoner"
 SetFontSize 36
 SetTextColor 235 47 47
 SetBorderColor 189 11 11
