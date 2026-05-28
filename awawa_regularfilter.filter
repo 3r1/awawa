@@ -573,7 +573,7 @@ MinimapIcon 2 Grey Kite
 
 # All - Fragments or league mechanic "entry keys"
 Show
-BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook" "Idol of Estazunti"
+BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook" "Idol of Estazunti" "The Triskelion Reforged" "Head of the King" "Breachlord Sac" "Raven's Reflection"
 SetFontSize 35
 SetTextColor 204 232 246
 SetBorderColor 204 232 246
