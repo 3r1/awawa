@@ -530,9 +530,20 @@ PlayEffect White
 MinimapIcon 1 White Circle
 
 # ═══✰ Delirium - Liquids ✰═══
+Tier 1? - Potent Concentrates, t3 sound
+Show
+BaseType "Potent Liquid Melancholy" "Potent Liquid Ferocity" "Potent Liquid Contempt" "Ancient Potent Liquid Melancholy" "Ancient Potent Liquid Ferocity" "Ancient Potent Liquid Contempt"
+SetFontSize 45
+SetTextColor 69 155 236
+SetBorderColor 69 155 236 200
+SetBackgroundColor 255 255 255
+CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+
 # tier 1 - Concentrates, t3 sound
 Show
-BaseType "Concentrated Liquid Fear" "Concentrated Liquid Suffering" "Concentrated Liquid Isolation"
+BaseType "Concentrated Liquid Fear" "Concentrated Liquid Suffering" "Concentrated Liquid Isolation" "Ancient Concentrated Liquid Fear" "Ancient Concentrated Liquid Suffering" "Ancient Concentrated Liquid Isolation"
 SetFontSize 45
 SetTextColor 69 155 236
 SetBorderColor 69 155 236 200
@@ -543,7 +554,7 @@ MinimapIcon 0 Blue Star
 
 # tier 5 - Normal Liquids
 Show
-BaseType "Liquid Paranoia" "Liquid Envy" "Liquid Disgust" "Liquid Despair"
+BaseType "Liquid Paranoia" "Liquid Envy" "Liquid Disgust" "Liquid Despair" "Ancient Liquid Paranoia" "Ancient Liquid Envy" "Ancient Liquid Disgust" "Ancient Liquid Despair"
 SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
@@ -554,7 +565,7 @@ MinimapIcon 1 White Circle
 
 # tier 6 - Dilited Liquids
 Show
-BaseType "Diluted Liquid Ire" "Diluted Liquid Guilt" "Diluted Liquid Greed"
+BaseType "Diluted Liquid Ire" "Diluted Liquid Guilt" "Diluted Liquid Greed" "Ancient Diluted Liquid Ire" "Ancient Diluted Liquid Guilt" "Ancient Diluted Liquid Greed"
 SetFontSize 34
 SetTextColor 117 200 255
 SetBorderColor 130 192 255 200
