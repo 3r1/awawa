@@ -130,29 +130,108 @@ PlayEffect Cyan Temp
 # ═══════════════════════════════
 # ═════✰ Runes (augments) ✰═════
 # ═══════════════════════════════
+# 0.5 New Warding Runes
+# "Warding Rune of Reinforcement" "Warding Rune of Protection" "Warding Rune of Disintegration" "Warding Rune of Desperation" "Warding Rune of Symbiosis" "Warding Rune of Courage" "Warding Rune of Stability" "Warding Rune of Glancing" "Warding Rune of Heart" "Warding Rune of Nourishment" "Warding Rune of Annihilation" "Warding Rune of Armature" "Warding Rune of Obsession" "Warding Rune of Equinox" "Warding Rune of Salvaging" "Warding Rune of Bodyguards" "Warding Rune of Hollowing"
+Show
+BaseType "Warding Rune of "
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 new Ancient runes
+# "Ancient Rune of Splinters" "Ancient Rune of Dueling" "Ancient Rune of the Titan" "Ancient Rune of Shattering" "Ancient Rune of Prowess" "Ancient Rune of Control" "Ancient Rune of Discovery" "Ancient Rune of Decay" "Ancient Rune of Witchcraft" "Ancient Rune of the Horde" "Ancient Rune of Animosity" "Ancient Rune of Detonation" "Ancient Rune of Retaliation"
+Show
+BaseType "Ancient Rune of"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New Misc Runes
+Show
+BaseType "Rune of Vitality" "Rune of the Hunt" "Rune of Acrobatics" "Rune of Culmination" "Rune of Renown" "Rune of Accumulation" "Rune of Foundations" "Rune of the Prism" "Rune of the Blossom" "Rune of Consistency" "Rune of Reach" "Rune of Vital Flame" "Rune of Confrontation"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New Legacy Augments
+BaseType "Aldur’s Legacy" "Legacy of Bramblejack" "Legacy of Blackbraid" "Legacy of Edyrns Tusks" "Legacy of Kingsguard" "Legacy of Bristleboar" "Legacy of Foxshade" "Legacy of Ashrend" "Legacy of Briskwrap" "Legacy of The Unleashed" "Legacy of Horns of Bynden" "Legacy of Wings of Caelyn" "Legacy of Ezomyte Peak" "Legacy of Deidbell" "Legacy of Elevore" "Legacy of Starkonja's Head" "Legacy of Crown of Thorns" "Legacy of Greymake" "Legacy of Erian's Cobble" "Legacy of The Smiling Knight" "Legacy of The Vile Knight" "Legacy of Northpaw" "Legacy of Candlemaker" "Legacy of Deathblow" "Legacy of Legionstride" "Legacy of Trampletoe" "Legacy of Briarpatch" "Legacy of Bushwhack" "Legacy of Wanderlust" "Legacy of The Knight-errant" "Legacy of Obern's Bastion" "Legacy of Dionadair" "Legacy of Wulfsbane" "Legacy of Chernobog's Pillar" "Legacy of Alkem Eira" "Legacy of Oaksworn" "Legacy of Dunkelhalt" "Legacy of Rondel de Ezo" "Legacy of Brynhand's Mark" "Legacy of Trenchtimbre" "Legacy of Mjölner" "Legacy of Twisted Empyrean" "Legacy of Hoghunt" "Legacy of Hrimnor's Hymn" "Legacy of Brain Rattler" "Legacy of Lifesprig" "Legacy of Duality" "Legacy of Tyranny's Grip" "Legacy of The Sentry" "Legacy of Adonia's Ego" "Legacy of Cursecarver" "Legacy of Dusk Vigil" "Legacy of The Blood Thorn" "Legacy of Quill Rain" "Legacy of Ironbound" "Legacy of Amor Mandragora" "Legacy of Spiteful Floret" "Legacy of Svalinn" "Legacy of Keeper of the Arc" "Legacy of Olrovasara" "Legacy of A Worthy Foe" "Legacy of Serle's Grit" "Legacy of Runeseeker's Call"  "Legacy of Facebreaker"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New Alloys augments
+Show
+BaseType "Transcendent Alloy" "The Runebinder's Alloy" "The Runefather's Alloy"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New Flux augments
+# "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Thaumaturgic Flux (Level 8)" "Thaumaturgic Flux (Level 9)" "Thaumaturgic Flux (Level 10)" "Thaumaturgic Flux (Level 11)" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 14)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 18)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 20)"
+Show
+BaseType "Thaumaturgic Flux"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New Emergent augments
+Show
+BaseType "Emergent Vigour" "Emergent Possibility" "Emergent Protection" "Emergent Instinct"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New Carved augments
+Show
+BaseType "Carved Cunning" "Carved Majesty" "Carved Mischief" "Carved Tenacity"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New misc augments
+Show
+BaseType "Masterwork Rune" "Raven-Touched Shard" "Passion of Aldur" "Breath of Aldur" "Ire of Aldur" "Betrayal of Aldur" "Serle's Triumph" "Cadigan's Epiphany" "Astrid's Creativity" "Uhtred's Sidereus" "Kolr's Hunt" "Vorana's Carnage" "Thrud's Might" "Medved's Tending" "Katla's Gloom"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# 0.5 New...
+Show
+BaseType 
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
+# Perfect Runes
+Show
+BaseType "Perfect Desert Rune" "Perfect Glacial Rune" "Perfect Storm Rune" "Perfect Iron Rune" "Perfect Body Rune" "Perfect Mind Rune" "Perfect Rebirth Rune" "Perfect Inspiration Rune" "Perfect Stone Rune" "Perfect Vision Rune" "Perfect Robust Rune" "Perfect Adept Rune" "Perfect Resolve Rune" "Perfect Ward Rune" "Perfect Charging Rune"
+SetTextColor 179 245 212
+PlayEffect Green
+MinimapIcon 1 Green Hexagon
+
 # special
 Show
-BaseType "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility"
+BaseType "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility" 
 SetTextColor 179 245 212
 PlayEffect Green
 MinimapIcon 1 Green Hexagon
 
 # greater
 Show
-BaseType "Greater Desert Rune" "Greater Glacial Rune" "Greater Storm Rune" "Greater Iron Rune" "Greater Body Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Inspiration Rune" "Greater Stone Rune" "Greater Vision Rune""Greater Adept Rune" "Greater Robust Rune" "Greater Resolve Rune"
+BaseType "Greater Desert Rune" "Greater Glacial Rune" "Greater Storm Rune" "Greater Iron Rune" "Greater Body Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Inspiration Rune" "Greater Stone Rune" "Greater Vision Rune""Greater Adept Rune" "Greater Robust Rune" "Greater Resolve Rune" "Greater Ward Rune" "Greater Charging Rune"
 SetTextColor 179 245 212
 PlayEffect Green Temp
 MinimapIcon 1 Green Hexagon
 
 # normal
 Show
-BaseType "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"  "Adept Rune" "Robust Rune" "Resolve Rune"
+BaseType "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"  "Adept Rune" "Robust Rune" "Resolve Rune" "Ward Rune" "Charging Rune"
 SetTextColor 179 245 212
 PlayEffect Green Temp
 
 # lesser
 Show
-BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Lesser Adept Rune" "Lesser Robust Rune" "Lesser Resolve Rune"
+BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Lesser Adept Rune" "Lesser Robust Rune" "Lesser Resolve Rune" "Lesser Ward Rune" "Lesser Charging Rune"
 SetTextColor 179 245 212
 PlayEffect Green Temp
 
@@ -370,6 +449,12 @@ PlayEffect Green
 MinimapIcon 1 Green Circle
 
 # ═══✰ Azmeri Spirits - Idols ✰═══
+# 0.5 New augments
+Show
+BaseType "Idol of Greust" "Idol of Yeena" "Idol of Eramir" "Idol of Oak" "Idol of Alira" "Idol of Kraityn" "Idol of Silk" "Idol of the Sycophant" "Idol of the Martyr" "Idol of the Pharisee" "Panther Idol" "Hawk Idol" "Stoat Idol"
+SetTextColor 179 245 212
+PlayEffect Cyan
+
 # tier 3 - Better augments
 Show
 BaseType "Fox Idol" "Rabbit Idol" "Idol of Eeshta" "Idol of Egrin" "Idol of Grold" "Idol of Maxarius" "Idol of Ralakesh" "Idol of Sirrius" "Idol of Thruldana" 
@@ -378,8 +463,8 @@ SetTextColor 255 255 255 255
 SetBorderColor 204 232 246 230
 SetBackgroundColor 76 186 241
 CustomAlertSound "awawawawawawawa_slow-end_wowed-[2szp4jVHPk4].wav" 300
-PlayEffect White
-MinimapIcon 1 Green Hexagon
+PlayEffect Cyan
+MinimapIcon 1 Cyan Hexagon
 
 # generic
 Show
