@@ -490,7 +490,7 @@ MinimapIcon 1 Green Square
 
 # Bones
 Show
-BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium"
+BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium" "Shattered Triskelion" "Altered Collarbone"
 SetTextColor 139 235 47
 SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230

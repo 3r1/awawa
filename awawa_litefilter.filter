@@ -415,7 +415,7 @@ SetBackgroundColor 20 20 0 230
 # Abyss, Azmeri Sprits, Breach, Delirium, Essence, Expedition, Ritual, Ultimatum, Vaal
 
 # ═══✰ Vaal ✰═══
-# new vaal currency
+# vaal currency
 # including Vaal Siphoner (item class: Incubator)
 Show
 BaseType "Core Destabiliser" "Vaal Armourer's Infuser" "Architect's Orb" "Ancient Infuser" "Orb of Extraction" "Crystallised Corruption" "Vaal Cultivation Orb" "Vaal Siphoner"
@@ -441,7 +441,7 @@ MinimapIcon 1 Green Pentagon
 
 # Bones
 Show
-BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium"
+BaseType "Gnawed Jawbone" "Preserved Jawbone" "Ancient Jawbone" "Gnawed Rib" "Preserved Rib" "Ancient Rib" "Gnawed Collarbone" "Preserved Collarbone" "Ancient Collarbone" "Preserved Cranium" "Shattered Triskelion" "Altered Collarbone"
 SetTextColor 139 235 47
 SetBorderColor 140 189 11
 SetBackgroundColor 0 0 0 230
