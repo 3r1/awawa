@@ -154,7 +154,7 @@ PlayEffect Green
 MinimapIcon 1 Green Hexagon
 
 # 0.5 New Legacy Augments
-BaseType "Aldur’s Legacy" "Legacy of Bramblejack" "Legacy of Blackbraid" "Legacy of Edyrns Tusks" "Legacy of Kingsguard" "Legacy of Bristleboar" "Legacy of Foxshade" "Legacy of Ashrend" "Legacy of Briskwrap" "Legacy of The Unleashed" "Legacy of Horns of Bynden" "Legacy of Wings of Caelyn" "Legacy of Ezomyte Peak" "Legacy of Deidbell" "Legacy of Elevore" "Legacy of Starkonja's Head" "Legacy of Crown of Thorns" "Legacy of Greymake" "Legacy of Erian's Cobble" "Legacy of The Smiling Knight" "Legacy of The Vile Knight" "Legacy of Northpaw" "Legacy of Candlemaker" "Legacy of Deathblow" "Legacy of Legionstride" "Legacy of Trampletoe" "Legacy of Briarpatch" "Legacy of Bushwhack" "Legacy of Wanderlust" "Legacy of The Knight-errant" "Legacy of Obern's Bastion" "Legacy of Dionadair" "Legacy of Wulfsbane" "Legacy of Chernobog's Pillar" "Legacy of Alkem Eira" "Legacy of Oaksworn" "Legacy of Dunkelhalt" "Legacy of Rondel de Ezo" "Legacy of Brynhand's Mark" "Legacy of Trenchtimbre" "Legacy of Mjölner" "Legacy of Twisted Empyrean" "Legacy of Hoghunt" "Legacy of Hrimnor's Hymn" "Legacy of Brain Rattler" "Legacy of Lifesprig" "Legacy of Duality" "Legacy of Tyranny's Grip" "Legacy of The Sentry" "Legacy of Adonia's Ego" "Legacy of Cursecarver" "Legacy of Dusk Vigil" "Legacy of The Blood Thorn" "Legacy of Quill Rain" "Legacy of Ironbound" "Legacy of Amor Mandragora" "Legacy of Spiteful Floret" "Legacy of Svalinn" "Legacy of Keeper of the Arc" "Legacy of Olrovasara" "Legacy of A Worthy Foe" "Legacy of Serle's Grit" "Legacy of Runeseeker's Call"  "Legacy of Facebreaker"
+BaseType "Aldur's Legacy" "Legacy of Bramblejack" "Legacy of Blackbraid" "Legacy of Edyrns Tusks" "Legacy of Kingsguard" "Legacy of Bristleboar" "Legacy of Foxshade" "Legacy of Ashrend" "Legacy of Briskwrap" "Legacy of The Unleashed" "Legacy of Horns of Bynden" "Legacy of Wings of Caelyn" "Legacy of Ezomyte Peak" "Legacy of Deidbell" "Legacy of Elevore" "Legacy of Starkonja's Head" "Legacy of Crown of Thorns" "Legacy of Greymake" "Legacy of Erian's Cobble" "Legacy of The Smiling Knight" "Legacy of The Vile Knight" "Legacy of Northpaw" "Legacy of Candlemaker" "Legacy of Deathblow" "Legacy of Legionstride" "Legacy of Trampletoe" "Legacy of Briarpatch" "Legacy of Bushwhack" "Legacy of Wanderlust" "Legacy of The Knight-errant" "Legacy of Obern's Bastion" "Legacy of Dionadair" "Legacy of Wulfsbane" "Legacy of Chernobog's Pillar" "Legacy of Alkem Eira" "Legacy of Oaksworn" "Legacy of Dunkelhalt" "Legacy of Rondel de Ezo" "Legacy of Brynhand's Mark" "Legacy of Trenchtimbre" "Legacy of Mjölner" "Legacy of Twisted Empyrean" "Legacy of Hoghunt" "Legacy of Hrimnor's Hymn" "Legacy of Brain Rattler" "Legacy of Lifesprig" "Legacy of Duality" "Legacy of Tyranny's Grip" "Legacy of The Sentry" "Legacy of Adonia's Ego" "Legacy of Cursecarver" "Legacy of Dusk Vigil" "Legacy of The Blood Thorn" "Legacy of Quill Rain" "Legacy of Ironbound" "Legacy of Amor Mandragora" "Legacy of Spiteful Floret" "Legacy of Svalinn" "Legacy of Keeper of the Arc" "Legacy of Olrovasara" "Legacy of A Worthy Foe" "Legacy of Serle's Grit" "Legacy of Runeseeker's Call"  "Legacy of Facebreaker"
 SetTextColor 179 245 212
 PlayEffect Green
 MinimapIcon 1 Green Hexagon
@@ -191,13 +191,6 @@ MinimapIcon 1 Green Hexagon
 # 0.5 New misc augments
 Show
 BaseType "Masterwork Rune" "Raven-Touched Shard" "Passion of Aldur" "Breath of Aldur" "Ire of Aldur" "Betrayal of Aldur" "Serle's Triumph" "Cadigan's Epiphany" "Astrid's Creativity" "Uhtred's Sidereus" "Kolr's Hunt" "Vorana's Carnage" "Thrud's Might" "Medved's Tending" "Katla's Gloom"
-SetTextColor 179 245 212
-PlayEffect Green
-MinimapIcon 1 Green Hexagon
-
-# 0.5 New...
-Show
-BaseType 
 SetTextColor 179 245 212
 PlayEffect Green
 MinimapIcon 1 Green Hexagon
@@ -546,7 +539,7 @@ PlayEffect White
 MinimapIcon 1 White Circle
 
 # ═══✰ Delirium - Liquids ✰═══
-Tier 1? - Potent Concentrates, t3 sound
+# Tier 1? - Potent Concentrates, t3 sound
 Show
 BaseType "Potent Liquid Melancholy" "Potent Liquid Ferocity" "Potent Liquid Contempt" "Ancient Potent Liquid Melancholy" "Ancient Potent Liquid Ferocity" "Ancient Potent Liquid Contempt"
 SetFontSize 45
@@ -853,7 +846,8 @@ SetTextColor 93 117 196
 # Reduce background opacity on lower level bases at endgame
 Show
 Rarity <= Magic
-Class "Body Armours" "Boots" "Bows" "Crossbows" "Flasks" "Foci" "Gloves" "Helmets" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Quivers" "Sceptres" "Shields" "Bucklers" "Tower Shields" "Targes" "Spears" "Staves" "Talismans" "Wands"
+# "Tower Shields" "Targes"
+Class "Body Armours" "Boots" "Bows" "Crossbows" "Flasks" "Foci" "Gloves" "Helmets" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Quivers" "Sceptres" "Shields" "Bucklers" "Spears" "Staves" "Talismans" "Wands"
 AreaLevel >= 65
 DropLevel <= 50
 SetBackgroundColor 0 0 0 125
