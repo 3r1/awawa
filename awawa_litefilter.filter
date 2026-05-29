@@ -77,7 +77,7 @@ BaseType "Uncut "
 SetTextColor 179 245 212
 SetBorderColor 255 255 255 200
 SetBackgroundColor 0 0 0 230
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
@@ -412,7 +412,55 @@ SetBackgroundColor 20 20 0 230
 # ═══════════════════════════════
 # ═════✰ League Mechanics ✰═════
 # ═══════════════════════════════
-# Abyss, Azmeri Sprits, Breach, Delirium, Essence, Expedition, Ritual, Ultimatum, Vaal
+# Abyss, Azmeri Sprits, Breach, Delirium, Essence, Expedition, Ritual, Runes of Aldur, Ultimatum, Vaal
+
+# ═══✰ 0.5.0 Runes of Aldur ✰═══
+# Verisium currency (gold-like?)
+Show
+BaseType "Verisium" "Exceptional Verisium"
+StackSize >= 500
+SetTextColor 162 207 255
+SetBorderColor 76 134 250 230
+SetBackgroundColor 0 0 0 180
+PlayEffect Blue Temp
+MinimapIcon 2 Blue Star
+
+Show
+BaseType "Verisium" "Exceptional Verisium"
+StackSize > 49 # not sure what value is correct yet
+SetTextColor 162 207 255
+SetBorderColor 76 134 250 230
+SetBackgroundColor 0 0 0 180
+
+# small stacks small
+Show
+BaseType "Verisium" "Exceptional Verisium"
+SetFontSize 17
+SetTextColor 162 207 255
+SetBorderColor 76 134 250 230
+SetBackgroundColor 0 0 0 180
+
+# ores
+Show
+BaseType "Runic Alloy" "Adaptive Alloy" "Protective Alloy" "Expansive Alloy" "Swift Alloy" "Cyclonic Alloy" "Prismatic Alloy" "Mystic Alloy" "Sovereign Alloy" "Celestial Alloy" "Venerable Starlit Ore" "Revered Starlit Ore" "Veridical Starlit Ore" "Warding Starlit Ore" "Starlit Ore" "Blazing Flux" "Chilling Flux" "Crackling Flux" "Void Flux"
+SetFontSize 36
+SetTextColor 131 234 255
+SetBorderColor 0 155 186
+SetBackgroundColor 4 0 133 230
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
+PlayEffect Blue
+MinimapIcon 1 Blue Circle
+
+# 0.5 misc unknown
+Show
+BaseType "Medved's Crest of the Circle" "Vorana's Crest of the Scythe" "Uhtred's Crest of the Chalice" "Olroth's Crest of the Sun" "Cryptic Key"
+SetFontSize 36
+SetTextColor 131 234 255
+SetBorderColor 0 155 186
+SetBackgroundColor 4 0 133 230
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
+PlayEffect Blue
+MinimapIcon 1 Blue Circle
 
 # ═══✰ Vaal ✰═══
 # vaal currency
@@ -482,7 +530,7 @@ SetFontSize 36
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
 SetBackgroundColor 53 71 130
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 250
 PlayEffect White
 MinimapIcon 1 White Circle
 
@@ -647,7 +695,7 @@ SetFontSize 35
 SetTextColor 204 232 246
 SetBorderColor 204 232 246
 SetBackgroundColor 72 94 169
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 PlayEffect White
 MinimapIcon 1 White Pentagon
 
@@ -657,7 +705,7 @@ Class "Currency"
 SetTextColor 249 248 152
 SetBorderColor 249 248 152
 SetBackgroundColor 0 0 0
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 PlayEffect Pink
 MinimapIcon 1 White Circle
 
@@ -670,7 +718,7 @@ Rarity <= Rare
 SetFontSize 35
 SetTextColor 255 255 255
 SetBorderColor 255 255 255 200
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 PlayEffect White
 MinimapIcon 1 White Square
 
@@ -697,7 +745,7 @@ SetFontSize 37
 SetTextColor 209 129 255
 SetBorderColor 159 112 247
 SetBackgroundColor 37 27 56 230
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 PlayEffect Purple Temp
 
 Show
@@ -706,7 +754,7 @@ SetFontSize 37
 SetTextColor 255 129 255
 SetBorderColor 255 112 247
 SetBackgroundColor 55 35 73 230
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 PlayEffect Purple Temp
 
 Show
@@ -754,7 +802,7 @@ Quality = 20
 SetFontSize 37
 SetBorderColor 50 241 255
 SetBackgroundColor 27 50 90 230
-CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 300
+CustomAlertSound "awa_question-[n9yKfe36Z5M].wav" 200
 PlayEffect Blue
 MinimapIcon 1 Blue UpsideDownHouse
 
