@@ -60,10 +60,15 @@ Basic poe1 sounds-only module: https://www.filterblade.xyz/?profile=Elaroz&saveS
 If you do not yet have the filter sounds, grab them from: https://github.com/3r1/awawa/releases/download/3.0/awawa_filter_sounds.zip
 
 ## Todo
-### For 0.4.0 launch
-- pray the filter works on 0.4.0 release on December 12th
+### For 0.5.0
+- check/recategorize new items (some guesswork/hasty categorization was done)
+- tweak verisium values
 
 ### General todo
+- for 1.0: remake filters/consolidate -- lite/regular can be merged into campaign + early-game, strict can be remade into general endgame filter
+    - rename filters to something like awawa_campaign_and_endgame and awawa_midgame (lategame blasters are probably using filterblade anyway)
+- add breach coloring
+- add tiering for catalysts and new 0.5.0 items
 - currency retiering: greater & perfect of "chaos, transmute, exalt, regal, aug" are untouched
 - better filtering for lineage supports
 - update colors for non currency items, revisit coloring of "league" items -- some disappear a little in currency tiers, potential gradient for stacked items
